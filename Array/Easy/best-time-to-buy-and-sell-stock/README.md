@@ -7,7 +7,7 @@
 
 ## Approach
 
-The code iterates through the array of stock prices, keeping track of the lowest price encountered so far. For each day, it calculates the potential profit by subtracting this minimum price from the current day's price. The maximum profit found across all days is continuously updated and returned.
+The solution iterates through the array once, keeping track of the minimum price encountered up to the current day. For each day, it calculates the potential profit by subtracting this minimum price from the current day's price. The maximum of these potential profits is continuously updated and returned.
 
 ## Complexity
 
