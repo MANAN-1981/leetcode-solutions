@@ -2,12 +2,12 @@
 
 **Difficulty:** Easy
 **Topic:** TwoPointers
-**Language:** Go
+**Language:** Java
 **LeetCode link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 ## Approach
 
-This solution employs a two-pointer technique. A slow pointer `k` maintains the index for the next unique element, while a fast pointer `i` traverses the array. When `nums[i]` is distinct from `nums[k]`, it signifies a new unique value; `k` is incremented, and `nums[i]` is moved to `nums[k]`, effectively compacting unique elements to the front. The final count of unique elements is `k + 1`.
+The code uses a two-pointer approach. One pointer (`k`) tracks the position for the next unique element, while the other (`i`) iterates through the array. If `nums[i]` is different from `nums[k]`, it's a new unique element, so `k` is incremented and `nums[i]` is placed at `nums[k]`. The final count of unique elements is `k+1`.
 
 ## Complexity
 
