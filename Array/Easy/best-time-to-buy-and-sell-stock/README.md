@@ -15,4 +15,4 @@ The solution iterates through the array once, keeping track of the minimum price
 - Space: O(1)
 
 ---
-*Auto-generated and pushed by LeetCode → GitHub AI sync extension.*
+
