@@ -2,12 +2,12 @@
 
 **Difficulty:** Easy
 **Topic:** Array
-**Language:** Go
+**Language:** Java
 **LeetCode link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 ## Approach
 
-This solution uses a two-pointer approach to remove duplicates from a sorted array. It maintains a pointer k that keeps track of the last non-duplicate element, and another pointer i that iterates through the array. Whenever a non-duplicate element is found, it is placed at the k+1 position and k is incremented.
+This solution uses a two-pointer approach to remove duplicates from a sorted array. It maintains a pointer k that keeps track of the position where the next non-duplicate element should be placed, and another pointer i that iterates through the array to find non-duplicate elements. By only incrementing k when a non-duplicate element is found, the solution effectively removes duplicates from the array in-place.
 
 ## Complexity
 
@@ -16,19 +16,18 @@ This solution uses a two-pointer approach to remove duplicates from a sorted arr
 
 ## Code
 
-```go
-func removeDuplicates(nums []int) int {
-    var k int = 0
-
-    for i:=1; i<len(nums);i++{
+```java
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int k = 0;
         
-        if nums[k] != nums[i]{
-
-                k++
-                nums[k] = nums[i]
+        for (int i = 1; i< nums.length; i++){
+           if (nums[k] != nums[i]){
+            k++;
+            nums[k] = nums[i];
+           }
         }
-        }
-    
-    return k +1
+        return k+1;
+    }
 }
 ```
