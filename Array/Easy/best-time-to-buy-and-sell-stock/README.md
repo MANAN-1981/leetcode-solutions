@@ -2,12 +2,12 @@
 
 **Difficulty:** Easy
 **Topic:** Array
-**Language:** Go
+**Language:** Java
 **LeetCode link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 ## Approach
 
-This solution iterates through the array of stock prices, keeping track of the minimum price encountered so far and the maximum profit that can be achieved. It updates the minimum price whenever it finds a lower price, and updates the maximum profit whenever it finds a price that would result in a higher profit. This approach ensures that the solution finds the best time to buy and sell the stock in a single pass through the array.
+This solution iterates through the array of stock prices to find the maximum possible profit by keeping track of the minimum price encountered so far and updating the maximum profit whenever a higher profit is found. It uses a simple and efficient approach to solve the problem in linear time. The code maintains two key variables: minPrice to store the minimum price seen so far, and maxProfit to store the maximum profit that can be achieved.
 
 ## Complexity
 
@@ -16,18 +16,27 @@ This solution iterates through the array of stock prices, keeping track of the m
 
 ## Code
 
-```go
-func maxProfit(prices []int) int {
-    mp := 0
-    minPrice := 2147483647
-   
-    for _ ,p := range prices{
-        if p < minPrice{
-            minPrice = p
-        }else if ( p - minPrice ) > mp {
-            mp = p - minPrice
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+       
+      int maxProfit = 0;
+      int profit = 0;
+
+      int minPrice = prices[0];
+
+      for (int i = 1; i<prices.length; i++){
+        if (prices[i] < minPrice){
+            minPrice = prices[i];
         }
+        profit = prices[i] - minPrice;
+
+        if (profit>maxProfit){
+            maxProfit = profit;
+        }
+
+      }
+      return maxProfit;
     }
-    return mp
 }
 ```
