@@ -1,6 +1,6 @@
 # 🏆 LeetCode Solutions
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-6-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-6-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-9-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-9-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Difficulty | Count | Progress |
 |:-----------|------:|:---------|
-| 🟢 Easy | 6 | `████████████████████` 100% |
+| 🟢 Easy | 9 | `████████████████████` 100% |
 | 🟡 Medium | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 | 🔴 Hard | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 
@@ -18,9 +18,9 @@
 
 | Topic | Problems | |
 |:------|--------:|:--|
-| Array | 3 | `████████░░░░░░░` 50% |
-| Math | 2 | `█████░░░░░░░░░░` 33% |
-| BinarySearch | 1 | `███░░░░░░░░░░░░` 17% |
+| Array | 5 | `████████░░░░░░░` 56% |
+| BinarySearch | 2 | `███░░░░░░░░░░░░` 22% |
+| Math | 2 | `███░░░░░░░░░░░░` 22% |
 
 ---
 
@@ -31,9 +31,12 @@
 | 1 | [Palindrome Number](Math/Easy/palindrome-number/) | Math | 🟢 Easy | Java |
 | 2 | [Missing Number](Math/Easy/missing-number/) | Math | 🟢 Easy | Java |
 | 3 | [Search Insert Position](BinarySearch/Easy/search-insert-position/) | BinarySearch | 🟢 Easy | Java |
-| 4 | [Two Sum](Array/Easy/two-sum/) | Array | 🟢 Easy | Java |
-| 5 | [Missing Number](Array/Easy/missing-number/) | Array | 🟢 Easy | Java |
-| 6 | [Binary Search](Array/Easy/binary-search/) | Array | 🟢 Easy | Java |
+| 4 | [Binary Search](BinarySearch/Easy/binary-search/) | BinarySearch | 🟢 Easy | Java |
+| 5 | [Two Sum](Array/Easy/two-sum/) | Array | 🟢 Easy | C++, Java |
+| 6 | [Remove Duplicates From Sorted Array](Array/Easy/remove-duplicates-from-sorted-array/) | Array | 🟢 Easy | Java |
+| 7 | [Missing Number](Array/Easy/missing-number/) | Array | 🟢 Easy | Java |
+| 8 | [Binary Search](Array/Easy/binary-search/) | Array | 🟢 Easy | Java |
+| 9 | [Best Time To Buy And Sell Stock](Array/Easy/best-time-to-buy-and-sell-stock/) | Array | 🟢 Easy | Java |
 
 ---
 
