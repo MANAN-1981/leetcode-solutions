@@ -2,12 +2,12 @@
 
 **Difficulty:** Easy
 **Topic:** Array
-**Language:** Java
+**Language:** C++
 **LeetCode link:** https://leetcode.com/problems/two-sum/
 
 ## Approach
 
-This solution uses a brute-force approach with nested loops. It iterates through every possible pair of distinct numbers in the input array. For each pair, it checks if their sum equals the target, returning their indices if a match is found.
+The approach used in the code is a brute force solution that checks every pair of numbers in the array to see if they add up to the target. It uses nested loops to compare each number with every other number that comes after it. However, the provided code has a logical error and does not correctly implement the two sum problem.
 
 ## Complexity
 
@@ -16,22 +16,25 @@ This solution uses a brute-force approach with nested loops. It iterates through
 
 ## Code
 
-```java
+```cpp
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        
-        int n = nums.length;
-
-        for(int i=0; i<n-1; i++){
-            for(int j=i+1; j<n; j++){
-                
-                if(nums[i] + nums[j] == target){
-                    return new int[] {i,j};
-                }
+public:
+vector<int> twoSum(vector<int>& nums, int target) {
+int n=nums.size();
+vector<int>ans;
+   for(int i=0;i<n;i++)
+    {
+        int e=i;
+        for(int j=i;j+1<n;j++)
+        {
+            if(nums[i]+nums[j+1]==target)
+            {
+            ans.push_back(e);
+            ans.push_back(j+1);
             }
         }
-        return new int[]{};
-
     }
-}
+    return ans;
+ }
+};
 ```
