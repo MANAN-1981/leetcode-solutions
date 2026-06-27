@@ -1,0 +1,11 @@
+        int en = arr.length -1;
+        int st = 0;
+        String s = se.replaceAll("[^a-zA-Z0-9]" , "").toLowerCase();
+        
+class Solution {
+    public boolean isPalindrome(String se) {
+        if(s.length() == 0){
+            return true;
+        }
+        char arr[] = s.toCharArray();
+
