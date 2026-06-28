@@ -1,6 +1,6 @@
 # 🏆 LeetCode Solutions
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-12-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-12-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-13-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-13-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Difficulty | Count | Progress |
 |:-----------|------:|:---------|
-| 🟢 Easy | 12 | `████████████████████` 100% |
+| 🟢 Easy | 13 | `████████████████████` 100% |
 | 🟡 Medium | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 | 🔴 Hard | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 
@@ -18,9 +18,9 @@
 
 | Topic | Problems | |
 |:------|--------:|:--|
-| Array | 7 | `█████████░░░░░░` 58% |
-| BinarySearch | 2 | `███░░░░░░░░░░░░` 17% |
-| Math | 2 | `███░░░░░░░░░░░░` 17% |
+| Array | 8 | `█████████░░░░░░` 62% |
+| BinarySearch | 2 | `██░░░░░░░░░░░░░` 15% |
+| Math | 2 | `██░░░░░░░░░░░░░` 15% |
 | TwoPointers | 1 | `█░░░░░░░░░░░░░░` 8% |
 
 ---
@@ -37,8 +37,8 @@
 | 6 | [Two Sum](Array/Easy/two-sum/) | Array | 🟢 Easy | C++, Java |
 | 7 | [Single Number](Array/Easy/single-number/) | Array | 🟢 Easy | Java |
 | 8 | [Remove Duplicates From Sorted Array](Array/Easy/remove-duplicates-from-sorted-array/) | Array | 🟢 Easy | Java |
-| 9 | [Missing Number](Array/Easy/missing-number/) | Array | 🟢 Easy | Java |
-| 10 | [Merge Sorted Array](Array/Easy/merge-sorted-array/) | Array | 🟢 Easy | Java |
+| 9 | [Move Zeroes](Array/Easy/move-zeroes/) | Array | 🟢 Easy | Java |
+| 10 | [Missing Number](Array/Easy/missing-number/) | Array | 🟢 Easy | Java |
 
 ---
 
