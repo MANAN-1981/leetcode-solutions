@@ -1,6 +1,6 @@
 # 🏆 LeetCode Solutions
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-16-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-16-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-17-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-17-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Difficulty | Count | Progress |
 |:-----------|------:|:---------|
-| 🟢 Easy | 16 | `████████████████████` 100% |
+| 🟢 Easy | 17 | `████████████████████` 100% |
 | 🟡 Medium | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 | 🔴 Hard | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 
@@ -18,9 +18,9 @@
 
 | Topic | Problems | |
 |:------|--------:|:--|
-| Array | 11 | `██████████░░░░░` 69% |
-| BinarySearch | 2 | `██░░░░░░░░░░░░░` 13% |
-| Math | 2 | `██░░░░░░░░░░░░░` 13% |
+| Array | 12 | `███████████░░░░` 71% |
+| BinarySearch | 2 | `██░░░░░░░░░░░░░` 12% |
+| Math | 2 | `██░░░░░░░░░░░░░` 12% |
 | TwoPointers | 1 | `█░░░░░░░░░░░░░░` 6% |
 
 ---
