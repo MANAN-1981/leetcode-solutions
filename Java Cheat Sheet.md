@@ -590,4 +590,3 @@ static int recurse(int n) {
 > ⭐ **Tip for DSA Prep:** Bookmark the [DSA Quick Reference](#12-dsa-quick-reference) and [Control Flow](#9-control-flow-in-java) sections — they're the ones you'll reach for mid-problem, every single time.
 
 ---
-*Compiled for personal DSA prep repository — based on GeeksforGeeks' Java Cheat Sheet.*
