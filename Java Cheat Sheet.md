@@ -1,7 +1,6 @@
-# ☕ Java Cheat Sheet
+# ☕ Java DSA Cheat Sheet
 
-> A quick-reference guide to Java fundamentals — perfect companion for DSA prep.
-> Source: condensed & restructured from GeeksforGeeks' Java Cheat Sheet.
+> A quick-reference guide to core Java syntax & fundamentals — built for Data Structures & Algorithms practice.
 
 ---
 
@@ -18,6 +17,7 @@
 9. [Control Flow in Java](#9-control-flow-in-java)
 10. [Methods in Java](#10-methods-in-java)
 11. [Java Input/Output (I/O)](#11-java-inputoutput-io)
+12. [DSA Quick Reference](#12-dsa-quick-reference)
 
 ---
 
@@ -255,6 +255,8 @@ flag: GFG
 | **Unary** | `+` `-` `++` `--` `!` |
 | **Ternary** | `condition ? expr1 : expr2` |
 
+> 💡 **DSA Tip:** Bitwise operators (`&`, `\|`, `^`, `<<`, `>>`) show up frequently in bit-manipulation problems — know them cold.
+
 ---
 
 ## 8. Identifiers in Java
@@ -390,7 +392,7 @@ Day 4 is Thursday
 
 ### 9.4 Loops in Java
 
-Loops are used to repeatedly execute a block of code as long as a condition holds true.
+Loops are used to repeatedly execute a block of code as long as a condition holds true — the backbone of most DSA traversal & iteration logic.
 
 | Loop | Syntax | Use Case |
 |------|--------|----------|
@@ -463,12 +465,13 @@ Sum is: 15
 |------|-------------|
 | **Predefined method** | Already defined in Java class libraries (e.g. `length()`, `sqrt()`) |
 | **User-defined method** | Written by the programmer according to requirements |
+| **Recursive method** | A method that calls itself — core to DSA topics like backtracking, DP, trees, divide & conquer |
 
 ---
 
 ## 11. Java Input/Output (I/O)
 
-The `java.util.Scanner` class is used to take user input, and `System.out.print()` / `println()` is used for output.
+The `java.util.Scanner` class is used to take user input, and `System.out.print()` / `println()` is used for output — essential for reading test cases in DSA problems.
 
 ```java
 import java.util.Scanner;
@@ -494,6 +497,80 @@ class GFG {
 | `System.out.println(x)` | Prints `x` followed by a newline |
 | `System.out.printf(...)` | Prints formatted output |
 
+### ⌨️ Common Scanner Methods (for reading input in problems)
+
+| Method | Reads |
+|--------|-------|
+| `sc.nextInt()` | An `int` |
+| `sc.nextLong()` | A `long` |
+| `sc.nextDouble()` | A `double` |
+| `sc.next()` | A single token (word) |
+| `sc.nextLine()` | An entire line |
+
+---
+
+## 12. DSA Quick Reference
+
+> 🚀 Extra syntax you'll reach for constantly while solving DSA problems in Java.
+
+### 📦 Common Data Structures
+
+| Structure | Declaration |
+|-----------|-------------|
+| Array | `int[] arr = new int[5];` |
+| ArrayList | `ArrayList<Integer> list = new ArrayList<>();` |
+| LinkedList | `LinkedList<Integer> ll = new LinkedList<>();` |
+| Stack | `Stack<Integer> stack = new Stack<>();` |
+| Queue | `Queue<Integer> queue = new LinkedList<>();` |
+| Deque | `Deque<Integer> deque = new ArrayDeque<>();` |
+| HashMap | `HashMap<Integer, Integer> map = new HashMap<>();` |
+| HashSet | `HashSet<Integer> set = new HashSet<>();` |
+| TreeMap (sorted) | `TreeMap<Integer, Integer> tmap = new TreeMap<>();` |
+| TreeSet (sorted) | `TreeSet<Integer> tset = new TreeSet<>();` |
+| PriorityQueue (min-heap) | `PriorityQueue<Integer> pq = new PriorityQueue<>();` |
+| PriorityQueue (max-heap) | `PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());` |
+
+### 🛠️ Useful Utility Methods
+
+| Task | Syntax |
+|------|--------|
+| Sort an array | `Arrays.sort(arr);` |
+| Sort a List | `Collections.sort(list);` |
+| Sort with comparator | `Arrays.sort(arr, (a, b) -> a - b);` |
+| Binary search (array) | `Arrays.binarySearch(arr, key);` |
+| Max of two values | `Math.max(a, b);` |
+| Min of two values | `Math.min(a, b);` |
+| Fill an array | `Arrays.fill(arr, value);` |
+| Copy an array | `Arrays.copyOf(arr, newLength);` |
+| Convert array to List | `Arrays.asList(arr);` |
+| 2D array declaration | `int[][] grid = new int[m][n];` |
+| String to char array | `str.toCharArray();` |
+| StringBuilder (mutable strings) | `StringBuilder sb = new StringBuilder();` |
+
+### ♻️ Recursion Template
+
+```java
+static int recurse(int n) {
+    // Base case
+    if (n <= 1) return n;
+
+    // Recursive case
+    return recurse(n - 1) + recurse(n - 2);
+}
+```
+
+### ⏱️ Time Complexity Cheatsheet
+
+| Notation | Name | Example |
+|----------|------|---------|
+| `O(1)` | Constant | Array access |
+| `O(log n)` | Logarithmic | Binary search |
+| `O(n)` | Linear | Single loop |
+| `O(n log n)` | Linearithmic | Merge sort, Quick sort (avg) |
+| `O(n²)` | Quadratic | Nested loops, Bubble sort |
+| `O(2ⁿ)` | Exponential | Recursive Fibonacci (naive) |
+| `O(n!)` | Factorial | Permutations |
+
 ---
 
 ## 📌 Quick Recap Cheat Table
@@ -510,3 +587,7 @@ class GFG {
 
 ---
 
+> ⭐ **Tip for DSA Prep:** Bookmark the [DSA Quick Reference](#12-dsa-quick-reference) and [Control Flow](#9-control-flow-in-java) sections — they're the ones you'll reach for mid-problem, every single time.
+
+---
+*Compiled for personal DSA prep repository — based on GeeksforGeeks' Java Cheat Sheet.*
