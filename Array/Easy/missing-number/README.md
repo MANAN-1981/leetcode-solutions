@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-The problem is solved by calculating the sum of all numbers from 0 to n and subtracting the sum of the given array. This approach takes advantage of the mathematical formula for the sum of an arithmetic series. The solution has a time complexity of O(n) and a space complexity of O(1).
+The problem is solved by calculating the sum of the given array and the sum of numbers from 0 to the length of the array, then returning the difference between the two sums. This approach works because the missing number is the one that would make the sum of the array equal to the sum of numbers from 0 to the length of the array. The solution has a time complexity of O(n) and a space complexity of O(1).
 
 ---
 
@@ -42,11 +42,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
