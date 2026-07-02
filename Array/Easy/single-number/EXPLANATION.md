@@ -2,36 +2,37 @@
 
 ## Algorithm Overview
 
-The algorithm uses the XOR operation to find the single number in the array. The XOR operation has the property that a ^ a = 0 and a ^ 0 = a, which means that if we XOR all elements in the array, the elements that occur twice will cancel each other out, leaving only the single number. The algorithm initializes a variable with the first element of the array and then iterates through the rest of the array, performing XOR operations on each element.
+The algorithm uses the XOR operation to find the single number in the array. It initializes the result with the first number in the array and then XORs all the remaining numbers. The XOR operation eliminates all the numbers that appear twice, leaving only the single number.
 
 ---
 
 ## Step-by-Step Explanation
 
-1. Initialize a variable with the first element of the array.
-2. Iterate through the rest of the array, starting from the second element.
-3. For each element, perform an XOR operation with the current variable value and update the variable with the result.
+1. Initialize the result with the first number in the array.
+2. Iterate through the array starting from the second number.
+3. For each number, XOR the result with the current number.
+4. After iterating through the entire array, the result will be the single number.
 
 ---
 
 ## Why This Works
 
-This approach works because the XOR operation has the property that a ^ a = 0 and a ^ 0 = a. This means that if we XOR all elements in the array, the elements that occur twice will cancel each other out, leaving only the single number. The algorithm takes advantage of this property to find the single number in the array.
+The XOR operation works because a ^ a = 0 and a ^ 0 = a. When a number appears twice, the XOR operation eliminates it, leaving only the single number. This is because the XOR operation is commutative and associative, meaning that the order of the operations does not matter.
 
 ---
 
 ## Edge Cases
 
-Important edge cases to consider include an empty array, an array with only one element, and an array with duplicate elements.
+Important edge cases to consider include an empty array, an array with a single element, and an array with all elements being the same.
 
 ---
 
 ## Alternative Approaches
 
-Alternative approaches include using a hash table to count the occurrences of each element and then finding the element with a count of 1, or using a sorting approach to find the single number.
+Alternative approaches include using a hash table to count the occurrences of each number and then finding the number with a count of 1, or using a sorting approach to find the single number.
 
 ---
 
 ## Common Mistakes
 
-Common mistakes include not handling the edge case of an empty array, not initializing the variable correctly, and not using the XOR operation correctly.
+Common mistakes include not handling the edge cases properly, not initializing the result correctly, and not using the XOR operation correctly.
