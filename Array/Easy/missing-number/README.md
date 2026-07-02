@@ -1,35 +1,52 @@
 # Missing Number
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Go
-**LeetCode link:** https://leetcode.com/problems/missing-number/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 Java
 
-The approach used in the code calculates the sum of all numbers from 0 to n (where n is the length of the input array) and subtracts the sum of the numbers in the input array to find the missing number. This solution works because the sum of numbers from 0 to n is a known arithmetic series. The code uses two separate loops to calculate these sums.
+[Problem Link](https://leetcode.com/problems/missing-number/)
 
-## Complexity
+</div>
 
-- Time: O(n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
 
-```go
-func missingNumber(nums []int) int {
-    s := len(nums) 
-    sum := 0
-    sum2 := 0
+The problem is solved by calculating the sum of all numbers from 0 to n and subtracting the sum of the given array. This approach takes advantage of the mathematical formula for the sum of an arithmetic series. The solution has a time complexity of O(n) and a space complexity of O(1).
 
-    for i:=0; i<s; i++{
-        sum += nums[i] 
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
+
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        int sum = 0;
+        int max = nums.length;
+
+        for (int i=0; i<nums.length; i++){
+            sum += nums[i];
+            max += i;
+        }
+
+    return max-sum;
     }
-
-    for i:=0; i<=s; i++{
-        sum2 += i
-    }
-
-    return sum2 - sum
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
