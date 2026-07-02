@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem uses binary search to find a target element in a sorted array. The algorithm repeatedly divides the search interval in half until the target is found or the interval is empty. This approach is efficient and simple to implement.
+This problem involves finding a target element in a sorted array using binary search. The algorithm works by repeatedly dividing the search interval in half until the target element is found. If the target element is not found, the algorithm returns -1.
 
 ---
 
@@ -48,11 +48,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
