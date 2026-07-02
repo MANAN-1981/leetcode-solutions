@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-The problem requires finding two non-zero integers that sum up to a given number. The provided solution uses a recursive approach to generate all numbers up to the given number and then checks all pairs of numbers to find the pair that sums up to the given number. However, this approach is inefficient and can be improved.
+This problem involves finding two non-zero integers that add up to a given number. The approach is to generate all possible pairs of non-zero integers and check if their sum equals the given number. The solution uses a recursive function to populate an array with numbers from 1 to n, and then iterates through the array to find a pair of numbers that meet the condition.
 
 ---
 
@@ -61,11 +61,3 @@ class Solution {
     }
 
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
