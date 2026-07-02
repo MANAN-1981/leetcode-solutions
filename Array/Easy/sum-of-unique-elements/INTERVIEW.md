@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you optimize the algorithm using a hash table?
-2. How would you handle an array with a large number of duplicate elements?
-3. What are the implications of using a brute-force approach in a real-world scenario?
+1. Can you optimize this solution for large inputs?
+2. How would you handle edge cases in this solution?
+3. What are the trade-offs between using a hash table and a sorting-based approach?
 
 ---
 
 ## Strengths
 
-- The algorithm is easy to understand and implement.
-- The code is well-structured and readable.
-- The algorithm correctly handles edge cases.
+- The solution is simple and easy to understand
+- The code is well-structured and readable
+- The solution handles edge cases correctly
 
 ---
 
 ## Weaknesses
 
-- The algorithm has a high time complexity.
-- The algorithm uses a brute-force approach.
+- The solution has a quadratic time complexity
+- The solution is not efficient for large inputs
 
 ---
 
 ## How To Improve
 
-- Optimize the algorithm using a hash table.
-- Use a more efficient data structure, such as a set or a map.
-- Consider using a sorting-based approach.
+- Use a hash table to store the counts of each element
+- Use a sorting-based approach to reduce the time complexity
+- Optimize the solution for large inputs
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is correct and well-structured, but it may not be efficient enough for large inputs. With some optimization and improvement, it can pass the FAANG interview.
+No, because the solution has a quadratic time complexity and is not efficient for large inputs. However, the solution is simple and easy to understand, and the code is well-structured and readable.
