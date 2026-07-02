@@ -1,12 +1,48 @@
 # Majority Element
 
-**Difficulty:** Easy
-**Topic:** Array
-**LeetCode link:** https://leetcode.com/problems/majority-element/submissions/2049556771/
+<div align="center">
 
-## Solutions
+## 🟢 Easy • 📂 Array • 💻 Java
 
-### Java
-**Approach:** The approach used in this code is to sort the input array and then return the middle element, which is guaranteed to be the majority element since it occurs more than half of the time. This works because the problem states that a majority element always exists. The sorting step allows us to find the majority element in a straightforward manner.
-**Time:** O(n log n) | **Space:** O(1)
-[View code](solution.java)
+[Problem Link](https://leetcode.com/problems/majority-element/)
+
+</div>
+
+---
+
+# 🧠 Approach
+
+This problem can be solved by sorting the array and then finding the middle element, which will be the majority element. The majority element is the element that appears more than n/2 times where n is the size of the array. This approach works because the majority element will always be at the middle index after sorting.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
+
+```java
+class Solution {
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+       
+        int half = (nums.length) / 2;
+
+        return nums[half];
+    }
+}
+```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
