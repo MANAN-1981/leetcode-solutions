@@ -1,12 +1,52 @@
 # Contains Duplicate
 
-**Difficulty:** Easy
-**Topic:** Array
-**LeetCode link:** https://leetcode.com/problems/contains-duplicate/submissions/2050302707/
+<div align="center">
 
-## Solutions
+## 🟢 Easy • 📂 Array • 💻 Java
 
-### Java
-**Approach:** This solution sorts the input array and then iterates through it to check for duplicate elements by comparing each element with its previous one. If a duplicate is found, the function returns true; otherwise, it returns false after checking all elements. This approach takes advantage of the fact that sorting brings equal elements together.
-**Time:** O(n log n) | **Space:** O(1)
-[View code](solution.java)
+[Problem Link](https://leetcode.com/problems/contains-duplicate/)
+
+</div>
+
+---
+
+# 🧠 Approach
+
+This problem can be solved by sorting the input array and then checking for adjacent duplicates. The solution has a time complexity of O(n log n) due to the sorting operation. It returns true if any duplicate is found and false otherwise.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
+
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        
+        Arrays.sort(nums);
+
+        for(int i=1; i<nums.length; i++){
+            if(nums[i] == nums[i-1]){
+                return true;
+            }
+        } 
+                   return false;
+    }
+}
+```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
