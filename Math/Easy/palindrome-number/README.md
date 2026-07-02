@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem checks if a given integer is a palindrome by reversing the number and comparing it to the original. The solution handles negative numbers and uses a simple iterative approach. It returns true if the number is a palindrome and false otherwise.
+This problem determines whether a given integer is a palindrome by reversing the number and comparing it to the original. The approach involves using arithmetic operations to reverse the number. The solution handles negative numbers as non-palindromes.
 
 ---
 
@@ -52,11 +52,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
