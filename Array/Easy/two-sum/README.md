@@ -1,32 +1,59 @@
 # Two Sum
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Go
-**LeetCode link:** https://leetcode.com/problems/two-sum/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 C++
 
-This solution uses a brute-force approach to find two numbers in the array that add up to the target sum. It iterates over each pair of numbers in the array and checks if their sum equals the target. If a match is found, it returns the indices of the two numbers.
+[Problem Link](https://leetcode.com/problems/two-sum/)
 
-## Complexity
+</div>
 
-- Time: O(n^2)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
 
-```go
-func twoSum(nums []int, target int) []int {
-    l := len(nums)
+The two sum problem is solved by iterating over the array and checking every pair of elements to see if their sum equals the target. This approach is straightforward but not efficient for large arrays. The solution returns the indices of the two elements that add up to the target.
 
-    for i:=0; i<l; i++{
-        for j:=i+1; j<l; j++{
-            if nums[i] + nums[j] == target{
-                return []int {i,j}
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n^2)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
+
+```cpp
+class Solution {
+public:
+vector<int> twoSum(vector<int>& nums, int target) {
+int n=nums.size();
+vector<int>ans;
+   for(int i=0;i<n;i++)
+    {
+        int e=i;
+        for(int j=i;j+1<n;j++)
+        {
+            if(nums[i]+nums[j+1]==target)
+            {
+            ans.push_back(e);
+            ans.push_back(j+1);
             }
         }
     }
-    return nil
-}
+    return ans;
+ }
+};
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
