@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem can be solved by iterating through the array of stock prices and keeping track of the minimum price seen so far. The maximum profit can be calculated by subtracting the minimum price from the current price. The solution has a time complexity of O(n) and a space complexity of O(1), making it efficient for large inputs. The algorithm uses a greedy approach to find the maximum profit.
+This problem can be solved by iterating through the array of stock prices and keeping track of the minimum price seen so far. The maximum profit is then calculated by subtracting the minimum price from the current price. The algorithm iterates through the array once, making it efficient. The solution uses a greedy approach to find the maximum profit.
 
 ---
 
@@ -51,11 +51,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
