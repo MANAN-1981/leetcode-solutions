@@ -1,20 +1,31 @@
 # Palindrome Number
 
-**Difficulty:** Easy
-**Topic:** Math
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/palindrome-number/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Math • 💻 Java
 
-This solution checks if a given number is a palindrome by reversing the number and comparing it with the original. It uses a while loop to extract each digit from the number and append it to the reversed number. If the reversed number equals the original, the function returns true, indicating the number is a palindrome.
+[Problem Link](https://leetcode.com/problems/palindrome-number/)
 
-## Complexity
+</div>
 
-- Time: O(log n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+This problem checks if a given integer is a palindrome by reversing the number and comparing it to the original. The solution handles negative numbers and uses a simple iterative approach. It returns true if the number is a palindrome and false otherwise.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -41,3 +52,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
