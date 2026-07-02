@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the trade-offs between this solution and alternative approaches?
-2. How would you optimize this solution for very large input strings?
-3. What are some potential pitfalls when implementing this solution?
+1. Can you explain the time complexity of this solution?
+2. How would you handle strings with non-alphanumeric characters in a different programming language?
+3. What are some potential optimizations to the solution?
 
 ---
 
 ## Strengths
 
-- Efficient use of the two-pointer technique
-- Effective handling of edge cases
-- Clear and concise code
+- The solution is efficient and effective
+- The solution correctly handles edge cases
+- The solution is well-organized and easy to understand
 
 ---
 
 ## Weaknesses
 
-- Limited error handling
-- No consideration of non-English characters
+- The solution does not include any error checking or handling
+- The solution does not provide any alternative approaches or optimizations
 
 ---
 
 ## How To Improve
 
-- Add more robust error handling
-- Consider using a more efficient data structure
-- Optimize the solution for very large input strings
+- Add error checking and handling to the solution
+- Provide alternative approaches and optimizations to the solution
+- Consider using a more efficient data structure or algorithm
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution is well-structured, efficient, and effectively handles edge cases. However, it may benefit from additional error handling and consideration of non-English characters to make it more robust.
+Yes, this solution is well-organized, efficient, and effective, and demonstrates a good understanding of the problem and the two-pointer approach. However, it could be improved with additional error checking and handling, as well as alternative approaches and optimizations.
