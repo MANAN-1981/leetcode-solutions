@@ -6,11 +6,11 @@ Math
 
 ## Key Idea
 
-The key insight is to use the mathematical formula for the sum of an arithmetic series to calculate the sum of all numbers from 0 to n. This allows us to find the missing number in O(n) time complexity.
+The key insight is to use the mathematical formula for the sum of an arithmetic series to find the missing number. This formula is n*(n+1)/2, where n is the length of the array.
 
 ## Important Observations
 
-The critical observations are that the array contains distinct elements and that the missing number is between 0 and n. The formula used is n*(n+1)/2, which is the sum of an arithmetic series.
+The input array contains distinct numbers from 0 to n, the sum of numbers from 0 to n is equal to n*(n+1)/2, the algorithm has a time complexity of O(n)
 
 ## Formula
 
@@ -18,25 +18,25 @@ n*(n+1)/2
 
 ## Interview Tips
 
-When explaining this problem in an interview, be sure to mention the mathematical formula used and the time complexity of the solution. Also, be prepared to discuss the edge cases and alternative approaches.
+Explain the mathematical formula used, provide examples to illustrate the algorithm, discuss the time and space complexity
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of the solution?
+**Q1.** What is the time complexity of the algorithm?
 
-**Q2.** How does the solution handle edge cases?
+**Q2.** How does the algorithm handle edge cases?
 
-**Q3.** What is the mathematical formula used to calculate the sum of all numbers from 0 to n?
+**Q3.** What is the mathematical formula used to find the missing number?
 
-**Q4.** How does the solution compare to alternative approaches?
+**Q4.** How does the algorithm compare to other approaches?
 
-**Q5.** What are the trade-offs between the different approaches?
+**Q5.** What are the advantages and disadvantages of the algorithm?
 
-**Q6.** How would you optimize the solution for large inputs?
+**Q6.** How can the algorithm be optimized?
 
-**Q7.** What are the implications of using a hash set to store the elements of the array?
+**Q7.** What are the implications of the algorithm for large inputs?
 
-**Q8.** How does the solution handle duplicate elements in the array?
+**Q8.** What are the potential pitfalls of the algorithm?
 
