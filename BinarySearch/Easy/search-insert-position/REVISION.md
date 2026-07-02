@@ -6,11 +6,11 @@ BinarySearch
 
 ## Key Idea
 
-The key insight is to use binary search to efficiently find the insertion point in the sorted array. This is possible because the array is sorted, allowing us to eliminate half of the search space with each comparison.
+The key idea is to use a binary search approach to find the position where the target value should be inserted. This approach takes advantage of the fact that the array is sorted, allowing us to eliminate half of the search space at each step.
 
 ## Important Observations
 
-Critical observations include the fact that the array is sorted, the target value may or may not be in the array, and the insertion point must maintain the sorted order of the array.
+The important observations are that the array is sorted, the target value may or may not be present in the array, and the algorithm should return the index where the target value should be inserted if it is not already present.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this in an interview, be sure to highlight the use of binary search and how it achieves an efficient time complexity. Also, discuss how you handle edge cases and how you ensure the insertion point maintains the sorted order of the array.
+To explain this problem in an interview, focus on the binary search approach and how it takes advantage of the sorted array. Emphasize the time complexity and the edge cases that need to be handled.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of this algorithm?
+**Q1.** What is the time complexity of the algorithm?
 
 **Q2.** How does the algorithm handle edge cases?
 
-**Q3.** What are the advantages of using binary search in this problem?
+**Q3.** What is the space complexity of the algorithm?
 
-**Q4.** How would you modify the algorithm to handle an unsorted array?
+**Q4.** How does the algorithm compare to a linear search approach?
 
-**Q5.** What are the trade-offs between using binary search and a linear search?
+**Q5.** What are the advantages and disadvantages of using a binary search approach?
 
-**Q6.** How does the algorithm ensure the insertion point maintains the sorted order of the array?
+**Q6.** How would you modify the algorithm to handle an unsorted array?
 
-**Q7.** What are some potential pitfalls when implementing this algorithm?
+**Q7.** What are the implications of using a binary search approach in a real-world application?
 
-**Q8.** How would you test this algorithm to ensure it is working correctly?
+**Q8.** How does the algorithm relate to other search algorithms?
 
