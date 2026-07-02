@@ -4,9 +4,9 @@
       
       <g transform="translate(30, 100)">
         <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#3FB950">Easy</text>
-        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">0</text>
+        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">19</text>
         <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
-        <rect x="150" y="3" width="0" height="14" rx="7" fill="#3FB950" />
+        <rect x="150" y="3" width="300" height="14" rx="7" fill="#3FB950" />
       </g>
 
       <g transform="translate(30, 160)">
