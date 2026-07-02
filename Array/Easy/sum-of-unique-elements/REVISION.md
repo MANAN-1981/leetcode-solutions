@@ -2,15 +2,15 @@
 
 ## Pattern Used
 
-Array
+Brute Force
 
 ## Key Idea
 
-The key insight is to count the occurrences of each element and add it to the sum if it appears only once. The use of nested loops allows the algorithm to compare each element with all other elements in the array.
+The key insight is to use a nested loop structure to compare every element against every other element. This approach ensures that only unique elements are added to the sum.
 
 ## Important Observations
 
-Critical observations include the fact that the algorithm has a time complexity of O(n^2) and a space complexity of O(1). The algorithm can be optimized using a hash table to store the counts of elements.
+Critical observations include the fact that the algorithm has a quadratic time complexity, making it inefficient for large inputs. Additionally, the algorithm uses a simple and straightforward approach, making it easy to understand and implement.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this problem in an interview, be sure to highlight the time and space complexities of the algorithm. Also, discuss alternative approaches and their trade-offs.
+When explaining this solution in an interview, be sure to highlight the brute force approach and the time complexity. Also, discuss the trade-offs between simplicity and efficiency.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of the algorithm?
+**Q1.** What is the time complexity of this solution?
 
-**Q2.** How can the algorithm be optimized?
+**Q2.** How would you optimize this solution for large inputs?
 
-**Q3.** What are the trade-offs of using a hash table versus a sorting-based approach?
+**Q3.** What are the trade-offs between using a hash table and a sorting-based approach?
 
-**Q4.** How would you handle edge cases?
+**Q4.** How would you handle edge cases in this solution?
 
-**Q5.** What are the implications of using a brute-force approach?
+**Q5.** What are the advantages and disadvantages of using a brute force approach?
 
-**Q6.** How would you improve the algorithm for large inputs?
+**Q6.** How would you explain this solution to a non-technical audience?
 
-**Q7.** What are the advantages and disadvantages of using nested loops?
+**Q7.** What are some potential pitfalls when implementing this solution?
 
-**Q8.** What are the potential pitfalls of using this algorithm in a real-world scenario?
+**Q8.** How would you test this solution to ensure it is working correctly?
 
