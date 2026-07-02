@@ -1,12 +1,54 @@
-# Minimum Cost of Buying Candies With Discount
+# Minimum Cost Of Buying Candies With Discount
 
-**Difficulty:** Easy
-**Topic:** Array
-**LeetCode link:** https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/submissions/2051912312/
+<div align="center">
 
-## Solutions
+## 🟢 Easy • 📂 Array • 💻 Java
 
-### Java
-**Approach:** This solution sorts the array of candy costs in ascending order, then iterates over the array from the end, adding the costs of the two most expensive candies in each set of three to the total cost. This greedy approach takes advantage of the discount offered when buying three candies. The solution has a time complexity of O(n log n) due to the sorting operation, but is simplified to O(n) in the provided JSON object, however the correct time complexity is O(n log n) due to the sorting operation.
-**Time:** O(n log n) | **Space:** O(1)
-[View code](solution.java)
+[Problem Link](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)
+
+</div>
+
+---
+
+# 🧠 Approach
+
+This problem involves sorting an array of candy prices and then selecting the most expensive candies to buy with a discount. The goal is to minimize the total cost of buying all the candies. The solution uses a greedy approach to achieve this.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
+
+```java
+class Solution {
+    public int minimumCost(int[] nums) {
+        Arrays.sort(nums);
+        int ans = 0;
+
+        for (int i = nums.length - 1; i >= 0; i -= 3) {
+            ans += nums[i];
+
+            if (i - 1 >= 0) {
+                ans += nums[i - 1];
+            }
+        }
+        return ans;
+    }
+}
+```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
