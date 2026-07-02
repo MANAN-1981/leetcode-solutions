@@ -12,15 +12,15 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain why binary search is more efficient than a linear search for this problem?
-2. How would you handle a very large input array?
-3. What are some potential edge cases that this algorithm may not handle correctly?
+1. Can you explain the time complexity of the algorithm?
+2. How would you handle an edge case where the target value is not present in the array?
+3. What are the trade-offs between using a binary search approach and a linear search approach?
 
 ---
 
 ## Strengths
 
-- The algorithm is efficient and has a good time complexity.
+- The solution is efficient and scalable.
 - The code is well-organized and easy to understand.
 - The algorithm handles edge cases correctly.
 
@@ -28,19 +28,19 @@
 
 ## Weaknesses
 
-- The algorithm assumes the input array is sorted, which may not always be the case.
-- The code does not include any error checking or handling.
+- The solution assumes that the input array is sorted.
+- The algorithm may not be suitable for very large arrays.
 
 ---
 
 ## How To Improve
 
-- Add error checking and handling to ensure the algorithm can handle invalid input.
-- Consider adding comments to the code to explain the logic and make it easier to understand.
-- Test the algorithm with a variety of input cases to ensure it is working correctly.
+- Consider adding error handling for invalid input.
+- Explore alternative approaches, such as using a hash table or a linear search.
+- Optimize the algorithm for very large arrays.
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution is efficient, well-organized, and handles edge cases correctly, making it suitable for a FAANG interview. However, the candidate should be prepared to explain the algorithm and its trade-offs, as well as discuss potential improvements and edge cases.
+Yes, the solution is efficient, scalable, and well-organized, making it suitable for a FAANG interview. However, the interviewer may ask follow-up questions to test the candidate's understanding of the algorithm and its limitations.
