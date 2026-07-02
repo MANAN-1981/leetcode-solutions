@@ -6,11 +6,11 @@ Greedy
 
 ## Key Idea
 
-The key insight is to take advantage of the discount by only paying for two out of every three candies. This is achieved by sorting the array and iterating over it from the end.
+The key insight is to take advantage of the discount by buying every third candy for free. This is achieved by sorting the array and iterating from the end.
 
 ## Important Observations
 
-Critical observations include: the array needs to be sorted in ascending order, the algorithm needs to iterate over the sorted array from the end, and the discount needs to be taken into account when calculating the total cost.
+Critical observations include the fact that the array needs to be sorted in ascending order, and that the algorithm needs to iterate from the end to take advantage of the discount.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this problem in an interview, be sure to emphasize the greedy approach and the importance of considering the discount. Also, highlight the time and space complexity of the solution.
+Tips for explaining this in an interview include focusing on the greedy algorithm, explaining the sorting step, and highlighting the importance of taking advantage of the discount.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of the solution?
+**Q1.** What is the time complexity of the algorithm?
 
 **Q2.** How does the algorithm handle edge cases?
 
-**Q3.** What is the key insight behind the greedy approach?
+**Q3.** What is the key insight behind the greedy algorithm?
 
-**Q4.** How does the solution take advantage of the discount?
+**Q4.** How does the algorithm take advantage of the discount?
 
-**Q5.** What are some alternative approaches to solving this problem?
+**Q5.** What are the trade-offs between different approaches?
 
-**Q6.** How does the solution handle arrays with different lengths?
+**Q6.** How does the algorithm scale for large inputs?
 
-**Q7.** What are some common mistakes developers often make with this problem?
+**Q7.** What are the implications of using a greedy algorithm?
 
-**Q8.** How does the solution handle arrays with duplicate elements?
+**Q8.** What are the potential pitfalls of this approach?
 
