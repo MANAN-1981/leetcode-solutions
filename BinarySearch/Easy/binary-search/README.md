@@ -1,20 +1,31 @@
 # Binary Search
 
-**Difficulty:** Easy
-**Topic:** BinarySearch
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/binary-search/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 BinarySearch • 💻 Java
 
-This solution uses a binary search approach to find the target element in a sorted array. It iteratively divides the search interval in half and searches for the target in one of the two halves until it is found or the interval is empty. The binary search algorithm is efficient and effective for finding elements in sorted arrays.
+[Problem Link](https://leetcode.com/problems/binary-search/)
 
-## Complexity
+</div>
 
-- Time: O(log n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+This problem uses binary search to find the index of a target element in a sorted array. The algorithm works by repeatedly dividing the search interval in half until the target element is found. If the target element is not found, the algorithm returns -1.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -37,3 +48,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
