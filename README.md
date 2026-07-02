@@ -1,6 +1,6 @@
 # 🏆 LeetCode Solutions
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-18-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-18-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-19-blueviolet?style=for-the-badge) ![Easy](https://img.shields.io/badge/Easy-19-00b8a3?style=for-the-badge) ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge) ![Hard](https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge)
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Difficulty | Count | Progress |
 |:-----------|------:|:---------|
-| 🟢 Easy | 18 | `████████████████████` 100% |
+| 🟢 Easy | 19 | `████████████████████` 100% |
 | 🟡 Medium | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 | 🔴 Hard | 0 | `░░░░░░░░░░░░░░░░░░░░` 0% |
 
@@ -18,10 +18,10 @@
 
 | Topic | Problems | |
 |:------|--------:|:--|
-| Array | 12 | `██████████░░░░░` 67% |
-| Math | 3 | `███░░░░░░░░░░░░` 17% |
+| Array | 13 | `██████████░░░░░` 68% |
+| Math | 3 | `██░░░░░░░░░░░░░` 16% |
 | BinarySearch | 2 | `██░░░░░░░░░░░░░` 11% |
-| TwoPointers | 1 | `█░░░░░░░░░░░░░░` 6% |
+| TwoPointers | 1 | `█░░░░░░░░░░░░░░` 5% |
 
 ---
 
@@ -36,9 +36,9 @@
 | 5 | [Search Insert Position](BinarySearch/Easy/search-insert-position/) | BinarySearch | 🟢 Easy | Java |
 | 6 | [Binary Search](BinarySearch/Easy/binary-search/) | BinarySearch | 🟢 Easy | Java |
 | 7 | [Two Sum](Array/Easy/two-sum/) | Array | 🟢 Easy | C++, Java |
-| 8 | [Single Number](Array/Easy/single-number/) | Array | 🟢 Easy | Java |
-| 9 | [Remove Duplicates From Sorted Array](Array/Easy/remove-duplicates-from-sorted-array/) | Array | 🟢 Easy | Java |
-| 10 | [Move Zeroes](Array/Easy/move-zeroes/) | Array | 🟢 Easy | Java |
+| 8 | [Sum Of Unique Elements](Array/Easy/sum-of-unique-elements/) | Array | 🟢 Easy | Java |
+| 9 | [Single Number](Array/Easy/single-number/) | Array | 🟢 Easy | Java |
+| 10 | [Remove Duplicates From Sorted Array](Array/Easy/remove-duplicates-from-sorted-array/) | Array | 🟢 Easy | Java |
 
 ---
 
