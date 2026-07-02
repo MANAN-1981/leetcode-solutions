@@ -12,34 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time complexity of this solution?
-2. How would you handle an array with a large number of duplicates?
-3. What are some potential edge cases to consider?
+1. Can you explain how the algorithm handles edge cases?
+2. How does the algorithm compare to other approaches to removing duplicates from a sorted array?
+3. What are some potential optimizations that could be made to the algorithm?
 
 ---
 
 ## Strengths
 
-- Efficient removal of duplicates
-- Clear and concise code
-- Proper handling of edge cases
+- The solution is efficient and scalable
+- The code is well-organized and easy to understand
+- The algorithm takes advantage of the fact that the input array is sorted
 
 ---
 
 ## Weaknesses
 
-- Limited scalability for very large arrays
+- The solution may not be suitable for unsorted input arrays
+- The algorithm may not handle extremely large input arrays efficiently
 
 ---
 
 ## How To Improve
 
-- Consider using a more efficient data structure, such as a HashSet, to remove duplicates
-- Add additional error checking and handling for edge cases
-- Optimize the solution for large arrays
+- Consider adding additional error checking to handle edge cases
+- Explore alternative approaches to solving the problem
+- Optimize the algorithm for large input arrays
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution is well-structured, efficient, and properly handles edge cases, making it suitable for a FAANG interview.
+Yes, this solution is well-organized, efficient, and scalable, making it suitable for a FAANG interview. The algorithm takes advantage of the fact that the input array is sorted, and the code is easy to understand and maintain.
