@@ -1,12 +1,71 @@
-# Convert Integer to the Sum of Two No-Zero Integers
+# Convert Integer To The Sum Of Two No Zero Integers
 
-**Difficulty:** Easy
-**Topic:** Math
-**LeetCode link:** https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/submissions/2053025127/
+<div align="center">
 
-## Solutions
+## 🟢 Easy • 📂 Math • 💻 Java
 
-### Java
-**Approach:** The approach used in the code involves generating an array of integers from 1 to n, then checking each pair of integers to see if they add up to n and do not contain the digit 0. The code uses a recursive function to populate the array and then iterates over the array to find the pair of integers that meet the conditions. This solution has a time complexity of O(n) due to the iteration over the array.
-**Time:** O(n^2) | **Space:** O(n)
-[View code](solution.java)
+[Problem Link](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)
+
+</div>
+
+---
+
+# 🧠 Approach
+
+The problem requires finding two non-zero integers that sum up to a given number. The provided solution uses a recursive approach to generate all numbers up to the given number and then checks all pairs of numbers to find the pair that sums up to the given number. However, this approach is inefficient and can be improved.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n^2)** |
+| Space | **O(n)** |
+
+---
+
+# 💻 Source Code
+
+```java
+class Solution {
+    public int[] getNoZeroIntegers(int n) {
+        int[] arr = new int[n];
+
+        enter(n, arr);
+        
+        for(int i=0; i<arr.length; i++){
+            if(String.valueOf(arr[i]).contains("0") == false){
+            for(int j=0; j<arr.length; j++){
+                if(String.valueOf(arr[j]).contains("0") == false){
+            if(arr[i] + arr[j] == n){
+                return new int[] {arr[i] , arr[j]};
+            }
+                }
+            }
+            }
+        }
+        
+        return new int[0];
+    }
+
+    public static void enter(int n, int[] arr) {
+        if (n == 0) {
+            return;
+        }
+
+        arr[n - 1] = n;
+
+        enter(n - 1, arr);
+    }
+    }
+
+```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
