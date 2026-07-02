@@ -6,11 +6,11 @@ Brute Force
 
 ## Key Idea
 
-The key insight is to check every pair of elements in the array to see if their sum equals the target. This approach is simple but not efficient for large arrays.
+The key idea is to check every pair of elements in the array to see if their sum equals the target. This approach is simple but not efficient for large arrays.
 
 ## Important Observations
 
-Critical observations include: the array can contain duplicate elements, the array can be empty, and the target can be any integer.
+Critical observations: the array can be empty, the array can have duplicate elements, the target can be negative.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this problem in an interview, be sure to discuss the time and space complexity, the edge cases, and the alternative approaches. Also, be prepared to write clean and efficient code.
+When explaining this solution in an interview, be sure to mention the time complexity and the edge cases. Also, be prepared to discuss alternative approaches and their trade-offs.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of this algorithm?
+**Q1.** What is the time complexity of this solution?
 
-**Q2.** How would you optimize this algorithm for large arrays?
+**Q2.** How would you optimize this solution for large arrays?
 
-**Q3.** What are the edge cases to consider in this problem?
+**Q3.** What are some edge cases to consider in this problem?
 
-**Q4.** How would you handle duplicate elements in this problem?
+**Q4.** How would you implement this solution using a hash table?
 
-**Q5.** What are the trade-offs between the brute force approach and the hash table approach?
+**Q5.** What are some trade-offs between different approaches to this problem?
 
-**Q6.** How would you implement this algorithm in a language other than C++?
+**Q6.** How would you test this solution?
 
-**Q7.** What are the implications of using a hash table in this problem?
+**Q7.** What are some common mistakes to avoid in this problem?
 
-**Q8.** How would you test this algorithm to ensure it is working correctly?
+**Q8.** How would you explain this solution to a non-technical person?
 
