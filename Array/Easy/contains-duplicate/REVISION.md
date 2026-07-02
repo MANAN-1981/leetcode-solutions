@@ -6,11 +6,11 @@ Sorting
 
 ## Key Idea
 
-The key insight here is that sorting the array allows for an efficient check for duplicates by comparing adjacent elements. This approach simplifies the problem by leveraging the properties of a sorted array.
+The key insight is to use sorting to bring duplicate elements together, making it efficient to find duplicates. This approach takes advantage of the fact that sorting can be done in O(n log n) time.
 
 ## Important Observations
 
-Critical observations include recognizing that the input array can be modified in place, the importance of handling edge cases, and understanding the trade-off between time and space complexity in different approaches.
+Critical observations include the fact that the input array is not modified except for the sorting step, and that the algorithm returns as soon as it finds a duplicate.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this solution in an interview, focus on the trade-offs between different approaches, such as time vs. space complexity. Be prepared to discuss how the choice of algorithm depends on the specific constraints of the problem.
+When explaining this problem in an interview, be sure to mention the time complexity of the sorting step and how it dominates the overall time complexity. Also, highlight the simplicity and efficiency of the algorithm.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** How would you optimize this solution for very large inputs?
+**Q1.** What is the time complexity of the sorting step?
 
-**Q2.** What are the trade-offs between using sorting versus a HashSet for this problem?
+**Q2.** How does the algorithm handle edge cases?
 
-**Q3.** How does the time complexity change if the input array is already partially sorted?
+**Q3.** What are some alternative approaches to solving this problem?
 
-**Q4.** Can you think of a scenario where this problem would be more efficiently solved with a different data structure?
+**Q4.** How does the algorithm's time complexity change if the input array is already sorted?
 
-**Q5.** How would you extend this solution to find all duplicates, not just the presence of any?
+**Q5.** What are some common mistakes to avoid when solving this problem?
 
-**Q6.** What if the array can contain negative numbers or zeros?
+**Q6.** How does the algorithm's space complexity change if we use a HashSet to store unique elements?
 
-**Q7.** How does the solution change if we are looking for duplicates within a certain distance in the array?
+**Q7.** What are some trade-offs between different approaches to solving this problem?
 
-**Q8.** What are the implications of using a stable vs. unstable sorting algorithm for this problem?
+**Q8.** How does the algorithm's performance change for large input arrays?
 
