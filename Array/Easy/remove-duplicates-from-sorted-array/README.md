@@ -1,20 +1,31 @@
-# Remove Duplicates from Sorted Array
+# Remove Duplicates From Sorted Array
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 Java
 
-This solution uses a two-pointer approach to remove duplicates from a sorted array. It maintains a pointer k that keeps track of the position where the next non-duplicate element should be placed, and another pointer i that iterates through the array to find non-duplicate elements. By only incrementing k when a non-duplicate element is found, the solution effectively removes duplicates from the array in-place.
+[Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-## Complexity
+</div>
 
-- Time: O(n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+This problem involves removing duplicates from a sorted array by iterating through the array and only keeping the first occurrence of each number. The solution uses a two-pointer approach to track the position of the last non-duplicate element. The function returns the length of the modified array with duplicates removed.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -31,3 +42,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
