@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 580 320" preserveAspectRatio="xMidYMid meet">
+      <rect width="580" height="320" rx="20" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+      <text x="30" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Difficulty Distribution</text>
+      
+      <g transform="translate(30, 100)">
+        <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#3FB950">Easy</text>
+        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">0</text>
+        <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
+        <rect x="150" y="3" width="0" height="14" rx="7" fill="#3FB950" />
+      </g>
+
+      <g transform="translate(30, 160)">
+        <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#F7B500">Medium</text>
+        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">0</text>
+        <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
+        <rect x="150" y="3" width="0" height="14" rx="7" fill="#F7B500" />
+      </g>
+
+      <g transform="translate(30, 220)">
+        <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#FF4D6D">Hard</text>
+        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">0</text>
+        <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
+        <rect x="150" y="3" width="0" height="14" rx="7" fill="#FF4D6D" />
+      </g>
+    </svg>
