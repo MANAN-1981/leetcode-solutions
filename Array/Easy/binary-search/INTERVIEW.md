@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time complexity of the algorithm?
-2. How would you handle an unsorted array?
-3. What are some potential pitfalls when implementing the algorithm?
+1. Can you explain how binary search works in an unsorted array?
+2. How would you optimize binary search for a very large array?
+3. What are some scenarios where binary search is not the best choice?
 
 ---
 
 ## Strengths
 
-- The algorithm has a logarithmic time complexity
-- The algorithm is simple to implement
-- The algorithm handles edge cases correctly
+- The solution is efficient and scalable.
+- The solution handles edge cases correctly.
+- The solution is well-organized and easy to understand.
 
 ---
 
 ## Weaknesses
 
-- The algorithm assumes the array is sorted
-- The algorithm may not be suitable for very large arrays
+- The solution does not include any error checking or handling.
+- The solution assumes that the input array is sorted.
 
 ---
 
 ## How To Improve
 
-- Consider adding error checking to handle unsorted arrays
-- Consider using a more efficient search algorithm for very large arrays
-- Consider adding comments to explain the algorithm
+- Add error checking and handling to the solution.
+- Consider using a more robust sorting algorithm to handle edge cases.
+- Add comments and documentation to the solution to make it easier to understand.
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution is well-structured and efficient, and demonstrates a good understanding of the binary search algorithm. However, the candidate may need to address some potential pitfalls and edge cases to pass a FAANG interview.
+Yes, this solution is well-organized, efficient, and scalable, making it suitable for a FAANG interview. However, the interviewer may ask follow-up questions to test the candidate's understanding of edge cases and optimization techniques.
