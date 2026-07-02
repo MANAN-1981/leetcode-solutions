@@ -6,11 +6,11 @@ BitManipulation
 
 ## Key Idea
 
-The key insight is that the XOR operation can be used to find the single number in the array. The XOR operation has the property that a ^ a = 0 and a ^ 0 = a, which means that if we XOR all elements in the array, the elements that occur twice will cancel each other out, leaving only the single number.
+The key insight is to use the XOR operation to eliminate all the numbers that appear twice, leaving only the single number. This is possible because of the properties of the XOR operation.
 
 ## Important Observations
 
-Critical observations include the properties of the XOR operation, the fact that the array contains duplicate elements, and the fact that the single number occurs only once.
+Critical observations include the properties of the XOR operation, the fact that the XOR operation is commutative and associative, and the fact that the XOR operation eliminates all the numbers that appear twice.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this solution in an interview, be sure to highlight the key insight of using the XOR operation to find the single number. Also, be prepared to explain the properties of the XOR operation and how they are used in the solution.
+To explain this problem in an interview, focus on the properties of the XOR operation and how it is used to eliminate all the numbers that appear twice. Be prepared to explain the edge cases and the time and space complexity of the solution.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
 **Q1.** What is the time complexity of the solution?
 
 **Q2.** How does the XOR operation work?
 
-**Q3.** What are the edge cases that need to be considered?
+**Q3.** What are the edge cases to consider?
 
-**Q4.** How does the solution handle duplicate elements?
+**Q4.** How does the solution handle an empty array?
 
-**Q5.** What are the advantages of using the XOR operation in this solution?
+**Q5.** What is the space complexity of the solution?
 
-**Q6.** How does the solution scale for large inputs?
+**Q6.** How does the solution handle an array with all elements being the same?
 
-**Q7.** What are the trade-offs between this solution and alternative approaches?
+**Q7.** What are the alternative approaches to solve this problem?
 
-**Q8.** How can the solution be optimized for performance?
+**Q8.** How does the solution handle an array with a single element?
 
