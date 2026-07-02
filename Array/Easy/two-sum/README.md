@@ -49,11 +49,3 @@ vector<int>ans;
  }
 };
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
