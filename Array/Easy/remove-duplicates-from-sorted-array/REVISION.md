@@ -6,11 +6,11 @@ TwoPointers
 
 ## Key Idea
 
-The key insight is to use two pointers to track the position of the last non-duplicate element and the current element being processed. This allows for efficient removal of duplicates.
+The key insight is to use a two-pointer approach to track the position of the next non-duplicate element, allowing for efficient removal of duplicates from the sorted array.
 
 ## Important Observations
 
-Critical observations include the fact that the array is sorted, which allows for efficient removal of duplicates, and the use of two pointers to track the position of the last non-duplicate element.
+Critical observations include the fact that the input array is sorted, and that the algorithm only needs to make a single pass through the array to remove duplicates.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this problem in an interview, be sure to highlight the use of two pointers and the efficient removal of duplicates. Also, be prepared to discuss edge cases and alternative approaches.
+When explaining this solution in an interview, be sure to highlight the two-pointer approach and how it allows for efficient removal of duplicates. Also, be prepared to discuss edge cases and alternative approaches.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of this solution?
+**Q1.** What is the time complexity of this algorithm?
 
-**Q2.** How does the two-pointer approach work?
+**Q2.** How does the algorithm handle edge cases?
 
-**Q3.** What are some edge cases to consider?
+**Q3.** What are some alternative approaches to solving this problem?
 
-**Q4.** How would you optimize this solution for large arrays?
+**Q4.** How does the algorithm take advantage of the fact that the input array is sorted?
 
-**Q5.** What are some alternative approaches to solving this problem?
+**Q5.** What are some potential pitfalls to watch out for when implementing this algorithm?
 
-**Q6.** How does this solution handle duplicate elements?
+**Q6.** How does the algorithm scale for large input arrays?
 
-**Q7.** What is the space complexity of this solution?
+**Q7.** What are some potential optimizations that could be made to the algorithm?
 
-**Q8.** How would you implement this solution in a different programming language?
+**Q8.** How does the algorithm compare to other approaches to removing duplicates from a sorted array?
 
