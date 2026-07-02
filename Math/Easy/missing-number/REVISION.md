@@ -6,11 +6,11 @@ Math
 
 ## Key Idea
 
-The key insight is that the sum of numbers from 0 to n is equal to n*(n+1)/2, and by subtracting the sum of the array from this sum, we get the missing number. This approach is efficient because it only requires a single pass through the array.
+The key insight is to use the mathematical formula for the sum of an arithmetic series to calculate the sum of all numbers from 0 to n. This allows us to find the missing number by subtracting the sum of the numbers in the array from the sum of all numbers.
 
 ## Important Observations
 
-The input array contains distinct integers from 0 to n, with one number missing, the sum of numbers from 0 to n is equal to n*(n+1)/2, the algorithm has a time complexity of O(n) and a space complexity of O(1)
+Critical observations include the fact that the input array contains distinct numbers, the fact that the missing number is in the range of numbers from 0 to n, and the fact that the sum of the numbers in the array is less than the sum of all numbers.
 
 ## Formula
 
@@ -18,25 +18,25 @@ n*(n+1)/2
 
 ## Interview Tips
 
-Explain the algorithm clearly and concisely, highlight the key insight and the efficiency of the approach, be prepared to answer questions about edge cases and alternative approaches
+When explaining this problem in an interview, be sure to highlight the mathematical insight and the efficiency of the solution. Also, be prepared to discuss the edge cases and the alternative approaches.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of the algorithm?
+**Q1.** What is the time complexity of the solution?
 
-**Q2.** How does the algorithm handle edge cases?
+**Q2.** How does the solution handle edge cases?
 
-**Q3.** What is the space complexity of the algorithm?
+**Q3.** What is the mathematical formula used in the solution?
 
-**Q4.** Can you explain the mathematical formula used in the algorithm?
+**Q4.** How does the solution compare to alternative approaches?
 
-**Q5.** How does the algorithm compare to other approaches?
+**Q5.** What are the advantages and disadvantages of the solution?
 
-**Q6.** What are the advantages and disadvantages of the algorithm?
+**Q6.** How would you optimize the solution for large input arrays?
 
-**Q7.** Can you write a similar algorithm for a different problem?
+**Q7.** What are the implications of the solution for real-world applications?
 
-**Q8.** How does the algorithm scale for large inputs?
+**Q8.** How does the solution relate to other problems in the field of mathematics and computer science?
 
