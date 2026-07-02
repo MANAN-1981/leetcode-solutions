@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem involves sorting an array of candy prices and then selecting the most expensive candies to buy with a discount. The goal is to minimize the total cost of buying all the candies. The solution uses a greedy approach to achieve this.
+This problem requires finding the minimum cost of buying candies with a discount. The approach involves sorting the candies by price and then selecting the most expensive ones with a discount. The solution uses a greedy algorithm to achieve this.
 
 ---
 
@@ -44,11 +44,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
