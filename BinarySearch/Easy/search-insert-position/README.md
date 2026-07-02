@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem involves finding the position to insert a target value in a sorted array to maintain sorted order. The solution uses a binary search approach to achieve this efficiently. It iterates through the array, adjusting the search range based on comparisons with the target value.
+This problem involves finding the position where a target value should be inserted in a sorted array to maintain its sorted order. The solution uses a binary search approach to achieve this efficiently. The algorithm returns the index where the target value should be inserted if it is not already present in the array.
 
 ---
 
@@ -51,11 +51,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
