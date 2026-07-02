@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem can be solved by sorting the input array and then checking for adjacent duplicates. The solution has a time complexity of O(n log n) due to the sorting operation. It returns true if any duplicate is found and false otherwise.
+This problem can be solved by sorting the input array and then checking for adjacent duplicates. The solution has a time complexity of O(n log n) due to the sorting step. It returns true as soon as it finds a duplicate, and false otherwise.
 
 ---
 
@@ -42,11 +42,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
