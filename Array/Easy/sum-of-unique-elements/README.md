@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem requires finding the sum of unique elements in an array. The approach involves iterating through the array and counting the occurrences of each element. If an element appears only once, it is added to the sum. The solution can be optimized using a hash table to store the counts of elements. The given code uses a brute-force approach with a time complexity of O(n^2).
+This problem can be solved by iterating over the array and counting the occurrences of each element. If an element appears only once, it is added to the sum. The solution has a time complexity of O(n^2) due to the nested loops. The algorithm is straightforward but not efficient for large inputs.
 
 ---
 
@@ -50,11 +50,3 @@ class Solution {
 }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
