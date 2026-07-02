@@ -12,35 +12,34 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time and space complexity of the solution?
-2. How does the solution handle negative numbers?
-3. What are some potential edge cases to consider?
+1. Can you explain why you chose to use arithmetic operations to reverse the number?
+2. How does your solution handle numbers with leading zeros?
+3. What are some potential trade-offs between different approaches to solving this problem?
 
 ---
 
 ## Strengths
 
-- The solution is easy to understand and implement.
-- The solution has a good time and space complexity.
-- The solution handles negative numbers correctly.
+- Efficient use of arithmetic operations
+- Correct handling of edge cases
+- Clear and concise code
 
 ---
 
 ## Weaknesses
 
-- The solution does not handle non-integer inputs.
-- The solution does not have any error checking or handling.
+- Limited flexibility in terms of input types
 
 ---
 
 ## How To Improve
 
-- Add error checking and handling to the solution.
-- Consider using a more efficient algorithm, such as one that uses a recursive function.
-- Add comments and documentation to the solution to make it easier to understand.
+- Consider adding support for non-integer input types
+- Explore alternative approaches and their trade-offs
+- Optimize the solution for large input numbers
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is well-structured, efficient, and easy to understand, making it suitable for a FAANG interview.
+Yes, this solution is well-structured, efficient, and correctly handles edge cases, making it suitable for a FAANG interview.
