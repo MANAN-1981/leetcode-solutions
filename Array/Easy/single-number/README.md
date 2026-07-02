@@ -1,20 +1,31 @@
 # Single Number
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/single-number/submissions/2047056095/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 Java
 
-This solution uses the XOR operation to find the single number in the array. The XOR operation has the property that a ^ a = 0 and a ^ 0 = a, so when all numbers are XORed together, the numbers that appear twice will cancel each other out, leaving the single number. This approach allows for a simple and efficient solution to the problem.
+[Problem Link](https://leetcode.com/problems/single-number/)
 
-## Complexity
+</div>
 
-- Time: O(n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+The problem is solved by using the XOR operation to find the single number in the array. This approach works because XOR of all elements gives us an odd occurring element. The solution iterates through the array, performing XOR operations on each element to find the single number.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -29,3 +40,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
