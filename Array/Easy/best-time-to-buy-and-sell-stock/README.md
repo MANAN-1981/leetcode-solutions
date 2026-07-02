@@ -1,20 +1,31 @@
-# Best Time to Buy and Sell Stock
+# Best Time To Buy And Sell Stock
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 Java
 
-This solution iterates through the array of stock prices to find the maximum possible profit by keeping track of the minimum price encountered so far and updating the maximum profit whenever a higher profit is found. It uses a simple and efficient approach to solve the problem in linear time. The code maintains two key variables: minPrice to store the minimum price seen so far, and maxProfit to store the maximum profit that can be achieved.
+[Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
-## Complexity
+</div>
 
-- Time: O(n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+This problem can be solved by iterating through the array of stock prices and keeping track of the minimum price seen so far. The maximum profit can be calculated by subtracting the minimum price from the current price. The solution has a time complexity of O(n) and a space complexity of O(1), making it efficient for large inputs. The algorithm uses a greedy approach to find the maximum profit.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -40,3 +51,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
