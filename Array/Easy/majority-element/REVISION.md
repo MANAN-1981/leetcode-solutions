@@ -6,11 +6,11 @@ Sorting
 
 ## Key Idea
 
-The key insight is that the majority element will always be at the middle index after sorting. This is because the majority element appears more than n/2 times, so it will always be in the middle of the sorted array.
+The key insight is that the majority element will always be at the middle index after sorting, as it occurs more than n/2 times. This allows us to find the majority element in a simple and efficient way.
 
 ## Important Observations
 
-Important observations include: the majority element appears more than n/2 times, the sorted array will have all occurrences of the majority element together, and the middle index will be the index of the majority element.
+Critical observations include the fact that the majority element occurs more than n/2 times, the fact that sorting groups all occurrences of the majority element together, and the fact that the middle index of the sorted array will always contain the majority element.
 
 ## Formula
 
@@ -18,25 +18,25 @@ N/A
 
 ## Interview Tips
 
-When explaining this solution in an interview, be sure to mention the time and space complexity, and explain why the sorting approach works. Also, be prepared to discuss alternative approaches and edge cases.
+When explaining this solution in an interview, be sure to highlight the key insight and the importance of considering edge cases. Also, be prepared to discuss the time and space complexity of the solution and how it can be optimized.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
-**Q1.** What is the time complexity of the sorting approach?
+**Q1.** What is the time complexity of the sorting operation?
 
-**Q2.** How does the sorting approach handle edge cases?
+**Q2.** How does the algorithm handle edge cases?
 
-**Q3.** What are some alternative approaches to solving this problem?
+**Q3.** What is the space complexity of the solution?
 
-**Q4.** How does the Boyer-Moore Voting Algorithm work?
+**Q4.** How can the solution be optimized for large input arrays?
 
-**Q5.** What are some common mistakes to avoid when solving this problem?
+**Q5.** What are the trade-offs between different approaches to solving the problem?
 
-**Q6.** How does the solution handle the case where there is no majority element?
+**Q6.** How does the solution handle the case where the input array is empty?
 
-**Q7.** What is the space complexity of the sorting approach?
+**Q7.** What are the implications of using a different sorting algorithm?
 
-**Q8.** How does the solution handle the case where the input array is null or empty?
+**Q8.** What are the limitations of the solution?
 
