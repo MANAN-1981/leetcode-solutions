@@ -13,34 +13,33 @@
 ## Common Follow-up Questions
 
 1. Can you explain the time and space complexity of the solution?
-2. How does the solution handle edge cases?
-3. What are some alternative approaches to solving this problem?
+2. How does the algorithm handle edge cases?
+3. What are the trade-offs between different approaches to solving the problem?
 
 ---
 
 ## Strengths
 
-- The solution is easy to understand and implement.
-- The solution has a clear and concise code.
-- The solution handles edge cases correctly.
+- The solution is simple and easy to understand
+- The solution has a clear and concise implementation
+- The solution handles edge cases correctly
 
 ---
 
 ## Weaknesses
 
-- The solution has a high time complexity due to the sorting approach.
-- The solution does not handle the case where there is no majority element.
+- The solution has a high time complexity due to the sorting operation
+- The solution may not be suitable for large input arrays
 
 ---
 
 ## How To Improve
 
-- Consider using a more efficient algorithm such as the Boyer-Moore Voting Algorithm.
-- Add error checking to handle the case where there is no majority element.
-- Consider using a hash table to count the occurrences of each element.
+- Consider using a more efficient sorting algorithm
+- Consider using a different approach to solving the problem, such as the Boyer-Moore Majority Vote algorithm
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is well-structured and easy to understand, and the candidate demonstrates a good understanding of the problem and the solution. However, the candidate could improve by discussing alternative approaches and edge cases in more detail.
+Yes, the solution is well-structured and easy to understand, and it handles edge cases correctly. However, the interviewer may ask follow-up questions to test the candidate's knowledge of the time and space complexity of the solution and their ability to optimize it.
