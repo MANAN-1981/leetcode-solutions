@@ -6,11 +6,11 @@ Brute Force
 
 ## Key Idea
 
-The key insight is to check every possible pair of elements within the given distance. However, this approach is not efficient for large inputs due to its high time complexity.
+The key idea is to check all possible pairs of elements within the specified distance. This approach is simple but not efficient for large arrays.
 
 ## Important Observations
 
-Critical observations include the fact that the algorithm has a high time complexity, making it inefficient for large inputs. Additionally, the algorithm should handle edge cases such as an empty array or an array with a single element.
+Critical observations include the fact that the algorithm has a time complexity of O(n*k), and that it uses a constant amount of space.
 
 ## Formula
 
@@ -18,11 +18,11 @@ N/A
 
 ## Interview Tips
 
-When explaining this solution in an interview, be sure to highlight the brute force approach and its limitations. Additionally, be prepared to discuss alternative approaches and their trade-offs.
+When explaining this problem in an interview, be sure to mention the time and space complexity, and discuss the trade-offs of using a brute force approach. Also, be prepared to discuss alternative approaches and their advantages and disadvantages.
 
 ---
 
-## AI Revision Questions
+## Revision Questions
 
 **Q1.** What is the time complexity of this algorithm?
 
@@ -30,13 +30,13 @@ When explaining this solution in an interview, be sure to highlight the brute fo
 
 **Q3.** What are some alternative approaches to solving this problem?
 
-**Q4.** How does the algorithm's performance change as the input size increases?
+**Q4.** How does the choice of data structure affect the algorithm's performance?
 
-**Q5.** What are some potential optimizations that could be made to the algorithm?
+**Q5.** What are some potential pitfalls when implementing this algorithm?
 
-**Q6.** How does the algorithm's performance compare to other approaches?
+**Q6.** How can this algorithm be optimized for large inputs?
 
-**Q7.** What are some potential drawbacks to using a brute force approach?
+**Q7.** What are some real-world applications of this problem?
 
-**Q8.** How could the algorithm be modified to handle larger inputs?
+**Q8.** How does this problem relate to other problems in the field of algorithms?
 
