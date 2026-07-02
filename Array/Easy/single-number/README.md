@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## 🟢 Easy • 📂 Array • 💻 Java
+## 🟢 Easy • 📂 BitManipulation • 💻 Java
 
 [Problem Link](https://leetcode.com/problems/single-number/)
 
@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-The problem is solved by using the XOR operation to find the single number in the array. This approach works because XOR of all elements gives us an odd occurring element. The solution iterates through the array, performing XOR operations on each element to find the single number.
+The problem can be solved by using bitwise XOR operation to find the single number in the array. The XOR operation has the property that a ^ a = 0 and a ^ 0 = a, which makes it suitable for this problem. The solution iterates through the array and XORs all the numbers to find the single number.
 
 ---
 
@@ -40,11 +40,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
