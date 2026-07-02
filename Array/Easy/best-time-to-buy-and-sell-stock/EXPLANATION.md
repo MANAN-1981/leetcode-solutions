@@ -2,38 +2,39 @@
 
 ## Algorithm Overview
 
-The algorithm iterates through the array of stock prices, keeping track of the minimum price seen so far. It calculates the maximum profit by subtracting the minimum price from the current price. The algorithm uses a greedy approach to find the maximum profit, which means it makes the locally optimal choice at each step with the hope of finding the global optimum.
+The algorithm initializes two variables, maxProfit and minPrice, to keep track of the maximum profit and the minimum price seen so far. It then iterates through the array of stock prices, updating minPrice and maxProfit as necessary. The algorithm uses a greedy approach to find the maximum profit by always choosing the minimum price seen so far.
 
 ---
 
 ## Step-by-Step Explanation
 
-1. Initialize the minimum price to the first price in the array.
-2. Iterate through the array of prices, starting from the second price.
-3. For each price, check if it is less than the current minimum price. If it is, update the minimum price.
-4. Calculate the profit by subtracting the minimum price from the current price.
-5. If the calculated profit is greater than the current maximum profit, update the maximum profit.
+1. Initialize maxProfit and minPrice variables. 
+2. Iterate through the array of stock prices. 
+3. For each price, check if it is less than the current minPrice. 
+4. If it is, update minPrice. 
+5. Calculate the profit by subtracting minPrice from the current price. 
+6. If the calculated profit is greater than maxProfit, update maxProfit.
 
 ---
 
 ## Why This Works
 
-This algorithm works because it keeps track of the minimum price seen so far, which allows it to calculate the maximum profit. The greedy approach ensures that the algorithm makes the locally optimal choice at each step, which leads to the global optimum. The algorithm has a time complexity of O(n) because it only needs to iterate through the array once.
+This algorithm works because it always chooses the minimum price seen so far, which guarantees the maximum profit. The greedy approach ensures that the algorithm makes the optimal choice at each step, resulting in the maximum profit.
 
 ---
 
 ## Edge Cases
 
-Important edge cases to consider include: an empty array, an array with a single element, an array with all elements being the same, an array with a decreasing sequence of prices.
+Important edge cases to consider include: an empty array of prices, an array with a single price, and an array with prices that are all the same.
 
 ---
 
 ## Alternative Approaches
 
-One alternative approach is to use a brute force method, which involves checking all possible buy and sell combinations. Another approach is to use dynamic programming, which involves breaking down the problem into smaller sub-problems and solving each sub-problem only once.
+Alternative approaches to solve this problem include using dynamic programming or a brute force approach. However, the greedy approach is the most efficient and straightforward solution.
 
 ---
 
 ## Common Mistakes
 
-Common mistakes include: not initializing the minimum price correctly, not updating the minimum price correctly, not calculating the profit correctly.
+Common mistakes developers make with this problem include not initializing variables correctly, not updating variables correctly, and not considering edge cases.
