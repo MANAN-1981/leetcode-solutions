@@ -12,34 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you implement a solution using a HashSet?
-2. How would you solve this problem if the input array is too large to fit into memory?
-3. What are the advantages and disadvantages of using a sorting-based approach versus a hash-based approach?
+1. Can you explain the time complexity of the sorting step?
+2. How would you optimize the algorithm for large input arrays?
+3. What are some trade-offs between different approaches to solving this problem?
 
 ---
 
 ## Strengths
 
-- The solution is straightforward and easy to understand.
-- It correctly handles edge cases.
-- The use of Arrays.sort makes the code concise.
+- The algorithm is simple and efficient
+- The code is well-organized and easy to read
+- The algorithm handles edge cases correctly
 
 ---
 
 ## Weaknesses
 
-- The solution has a time complexity of O(n log n) due to the sorting, which might not be optimal for very large inputs or real-time systems.
+- The algorithm has a time complexity of O(n log n) due to the sorting step
+- The algorithm modifies the input array
 
 ---
 
 ## How To Improve
 
-- Consider using a HashSet for a potential O(n) solution.
-- Discuss the trade-offs between different approaches in terms of time and space complexity.
-- Prepare to explain how the choice of algorithm depends on the specific constraints of the problem.
+- Consider using a HashSet to store unique elements and check for duplicates in O(1) time
+- Optimize the algorithm for large input arrays by using a more efficient sorting algorithm
+- Add more comments to the code to explain the logic and time complexity
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution demonstrates a clear understanding of the problem and applies a suitable algorithm. However, being prepared to discuss optimizations and alternative approaches is crucial for passing interviews at top tech companies.
+Yes, because the algorithm is simple and efficient, and the code is well-organized and easy to read. However, the interviewer may ask follow-up questions to test the candidate's understanding of the time complexity and optimization of the algorithm.
