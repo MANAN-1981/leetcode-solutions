@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 580 320" preserveAspectRatio="xMidYMid meet">
+      <rect width="580" height="320" rx="20" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+      <text x="30" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Top Languages</text>
+      
+        <text x="30" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">1.</text>
+        <text x="60" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Java</text>
+        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#58A6FF">19</text>
+        <text x="300" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">95%</text>
+        <rect x="360" y="93" width="180" height="12" rx="6" fill="#0D1117" />
+        <rect x="360" y="93" width="171" height="12" rx="6" fill="#58A6FF" />
+      
+        <text x="30" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">2.</text>
+        <text x="60" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">C++</text>
+        <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#58A6FF">1</text>
+        <text x="300" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">5%</text>
+        <rect x="360" y="133" width="180" height="12" rx="6" fill="#0D1117" />
+        <rect x="360" y="133" width="9" height="12" rx="6" fill="#58A6FF" />
+      
+    </svg>
