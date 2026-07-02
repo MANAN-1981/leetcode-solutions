@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-The problem requires moving all zeroes in an array to the end while maintaining the relative order of non-zero elements. This can be achieved by using a two-pointer technique. The given code, however, uses a nested loop approach which is inefficient.
+The problem requires moving all zeroes in an array to the end while maintaining the relative order of non-zero elements. This can be achieved by iterating through the array and swapping non-zero elements with the next available position. The provided code attempts to solve this problem but contains logical errors.
 
 ---
 
@@ -45,11 +45,3 @@ class Solution {
   }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
