@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem involves removing duplicates from a sorted array by iterating through the array and only keeping the first occurrence of each number. The solution uses a two-pointer approach to track the position of the last non-duplicate element. The function returns the length of the modified array with duplicates removed.
+This problem involves removing duplicates from a sorted array by iterating through the array and only keeping the first occurrence of each number. The solution uses a two-pointer approach to track the position of the next non-duplicate element. The function returns the length of the modified array with duplicates removed.
 
 ---
 
@@ -42,11 +42,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
