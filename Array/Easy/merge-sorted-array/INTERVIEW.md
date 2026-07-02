@@ -12,35 +12,34 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time complexity of the sorting operation?
-2. How would you handle the case where the first array is not large enough to hold all elements?
-3. What are the trade-offs of using a two-pointer technique versus a sorting operation?
+1. Can you explain the time and space complexity of the algorithm?
+2. How does the algorithm handle edge cases?
+3. What are the trade-offs of using a two-pointer technique versus the built-in sorting function?
 
 ---
 
 ## Strengths
 
-- The solution is easy to understand and implement.
-- The solution handles edge cases correctly.
-- The solution is well-organized and readable.
+- The algorithm is simple and easy to understand
+- The algorithm handles edge cases correctly
+- The algorithm has a clear and concise implementation
 
 ---
 
 ## Weaknesses
 
-- The solution has a high time complexity due to the sorting operation.
-- The solution does not handle the case where the input arrays are not sorted.
+- The algorithm has a high time complexity due to the use of the built-in sorting function
 
 ---
 
 ## How To Improve
 
-- Consider using a two-pointer technique to merge the two arrays in a single pass.
-- Consider using a heap data structure to merge the two arrays.
-- Consider adding error checking to handle the case where the input arrays are not sorted.
+- Use a two-pointer technique to merge the two arrays in a single pass
+- Use a heap data structure to merge the two arrays
+- Optimize the algorithm to handle large inputs more efficiently
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is well-organized and readable, and it handles edge cases correctly. However, the solution could be improved by using a more efficient algorithm, such as a two-pointer technique or a heap data structure.
+Yes, because the algorithm is correct, efficient, and well-implemented, and the candidate is able to explain the time and space complexity of the algorithm and handle edge cases correctly.
