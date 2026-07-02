@@ -2,38 +2,39 @@
 
 ## Algorithm Overview
 
-The algorithm starts by initializing two pointers, st and end, to the start and end of the array. It then enters a loop where it calculates the midpoint of the current search interval and compares the target element to the element at the midpoint. If the target element is greater than the element at the midpoint, the algorithm updates the start pointer to the midpoint + 1. If the target element is less than the element at the midpoint, the algorithm updates the end pointer to the midpoint - 1. If the target element is equal to the element at the midpoint, the algorithm returns the midpoint.
+The binary search algorithm works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the next interval will be the lower half. Otherwise, the next interval will be the upper half. The process is repeated until the size of the interval is zero, at which point the target element is either found or determined to be not present in the array.
 
 ---
 
 ## Step-by-Step Explanation
 
-1. Initialize two pointers, st and end, to the start and end of the array.
-2. Calculate the midpoint of the current search interval.
-3. Compare the target element to the element at the midpoint.
-4. Update the start or end pointer based on the comparison.
-5. Repeat steps 2-4 until the target element is found or the search interval is empty.
+1. Initialize the start and end indices of the search interval.
+2. Calculate the middle index of the search interval.
+3. Compare the target element with the middle element of the search interval.
+4. If the target element is less than the middle element, update the end index to the index before the middle index.
+5. If the target element is greater than the middle element, update the start index to the index after the middle index.
+6. Repeat steps 2-5 until the start index is greater than the end index or the target element is found.
 
 ---
 
 ## Why This Works
 
-This algorithm works because the array is sorted, which allows us to eliminate half of the search interval at each step. By repeatedly dividing the search interval in half, we can find the target element in logarithmic time.
+The binary search algorithm works because the array is sorted. By repeatedly dividing the search interval in half, we can eliminate half of the possible locations of the target element at each step. This reduces the number of comparisons needed to find the target element, resulting in a time complexity of O(log n).
 
 ---
 
 ## Edge Cases
 
-The target element is not in the array, the array is empty, the target element is at the start or end of the array
+The edge cases to consider are: an empty array, an array with a single element, an array with duplicate elements, and an array with a target element that is not present.
 
 ---
 
 ## Alternative Approaches
 
-We could use a linear search algorithm, which would have a time complexity of O(n). Alternatively, we could use a hash table to store the elements of the array and their indices, which would allow us to find the target element in constant time.
+One alternative approach is to use a linear search algorithm, which has a time complexity of O(n). Another alternative approach is to use a hash table to store the elements of the array and then search for the target element in the hash table.
 
 ---
 
 ## Common Mistakes
 
-Not updating the start or end pointer correctly, not checking for the case where the target element is not in the array
+Common mistakes include not handling the edge cases correctly, not updating the start and end indices correctly, and not checking for the presence of the target element correctly.
