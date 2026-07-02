@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem can be solved by checking every pair of elements in the array to see if there are any duplicates within a certain distance. The algorithm iterates over the array and checks each element with every other element within the given distance. If a duplicate is found, the function returns true. The solution has a time complexity of O(n*k) due to the nested loops. It is a simple and straightforward approach but not efficient for large inputs.
+This problem involves checking for duplicate elements in an array within a certain distance. The approach is to use a brute force method, checking each element against all other elements within the specified distance. The algorithm returns true as soon as it finds a duplicate within the distance, and false otherwise.
 
 ---
 
@@ -46,11 +46,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
