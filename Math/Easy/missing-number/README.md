@@ -1,20 +1,31 @@
 # Missing Number
 
-**Difficulty:** Easy
-**Topic:** Math
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/missing-number/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Math • 💻 Java
 
-This solution calculates the expected sum of all numbers from 0 to n (where n is the length of the input array). It then iterates through the given array to compute the actual sum of its elements. The missing number is found by subtracting the actual sum from the expected sum.
+[Problem Link](https://leetcode.com/problems/missing-number/)
 
-## Complexity
+</div>
 
-- Time: O(n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+The problem is solved by calculating the sum of the given array and the sum of numbers from 0 to n, where n is the length of the array, then returning the difference between these two sums. This approach works because the missing number is the one that would make the sum of the array equal to the sum of numbers from 0 to n. The time complexity is O(n) and the space complexity is O(1).
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -31,3 +42,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
