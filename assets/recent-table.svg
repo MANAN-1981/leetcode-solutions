@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 540" preserveAspectRatio="xMidYMid meet">
+      <rect width="1200" height="540" rx="20" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+      <text x="40" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Recently Solved Problems</text>
+      
+      <!-- Table Header -->
+      <text x="50" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="bold">#</text>
+      <text x="100" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="bold">PROBLEM</text>
+      <text x="550" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="bold">TOPIC</text>
+      <text x="750" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="bold">DIFFICULTY</text>
+      <text x="900" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8B949E" font-weight="bold">LANGUAGES</text>
+      
+      
+          <rect x="30" y="80" width="1140" height="40" rx="6" fill="#0D1117" />
+          <text x="50" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">1</text>
+          <text x="100" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Valid Palindrome</text>
+          <rect x="550" y="88" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">TwoPointers</text>
+          
+          <rect x="750" y="88" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="125" width="1140" height="40" rx="6" fill="#161B22" />
+          <text x="50" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">2</text>
+          <text x="100" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Palindrome Number</text>
+          <rect x="550" y="133" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
+          
+          <rect x="750" y="133" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="170" width="1140" height="40" rx="6" fill="#0D1117" />
+          <text x="50" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">3</text>
+          <text x="100" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Missing Number</text>
+          <rect x="550" y="178" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
+          
+          <rect x="750" y="178" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="215" width="1140" height="40" rx="6" fill="#161B22" />
+          <text x="50" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">4</text>
+          <text x="100" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Convert Integer To The Sum Of Two No Zero Integers</text>
+          <rect x="550" y="223" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
+          
+          <rect x="750" y="223" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="260" width="1140" height="40" rx="6" fill="#0D1117" />
+          <text x="50" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">5</text>
+          <text x="100" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Search Insert Position</text>
+          <rect x="550" y="268" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">BinarySearch</text>
+          
+          <rect x="750" y="268" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="305" width="1140" height="40" rx="6" fill="#161B22" />
+          <text x="50" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">6</text>
+          <text x="100" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Binary Search</text>
+          <rect x="550" y="313" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">BinarySearch</text>
+          
+          <rect x="750" y="313" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="350" width="1140" height="40" rx="6" fill="#0D1117" />
+          <text x="50" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">7</text>
+          <text x="100" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Two Sum</text>
+          <rect x="550" y="358" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Array</text>
+          
+          <rect x="750" y="358" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">C++, Java</text>
+        
+          <rect x="30" y="395" width="1140" height="40" rx="6" fill="#161B22" />
+          <text x="50" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">8</text>
+          <text x="100" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Sum Of Unique Elements</text>
+          <rect x="550" y="403" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Array</text>
+          
+          <rect x="750" y="403" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="440" width="1140" height="40" rx="6" fill="#0D1117" />
+          <text x="50" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">9</text>
+          <text x="100" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Single Number</text>
+          <rect x="550" y="448" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Array</text>
+          
+          <rect x="750" y="448" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+          <rect x="30" y="485" width="1140" height="40" rx="6" fill="#161B22" />
+          <text x="50" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">10</text>
+          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Remove Duplicates From Sorted Array</text>
+          <rect x="550" y="493" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
+          <text x="620" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Array</text>
+          
+          <rect x="750" y="493" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          
+          <text x="900" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
+        
+    </svg>
