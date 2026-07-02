@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This problem involves checking if a given string is a palindrome after removing non-alphanumeric characters and converting to lowercase. The approach involves using two pointers to compare characters from the start and end of the string, moving towards the center. The solution returns true if all pairs of characters match, and false otherwise.
+This problem checks if a given string is a palindrome after removing non-alphanumeric characters and converting to lowercase. It uses a two-pointer approach to compare characters from the start and end of the string. The solution returns true if the string is a palindrome and false otherwise.
 
 ---
 
@@ -52,11 +52,3 @@ class Solution {
     }
 }
 ```
-
----
-
-<div align="center">
-
-⭐ If you found this solution helpful, consider giving this repository a star.
-
-</div>
