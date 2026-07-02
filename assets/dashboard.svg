@@ -16,7 +16,7 @@
       
       <g transform="translate(600, 160)">
         <text x="0" y="-30" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="bold" fill="#E6EDF3" text-anchor="middle">LeetCode Solutions</text>
-        <text x="0" y="25" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#8B949E" text-anchor="middle">Solve • Learn • Master DSA</text>
+        <text x="0" y="25" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#8B949E" text-anchor="middle">MANAN-1981/leetcode-solutions</text>
         
         <rect x="-100" y="60" width="200" height="4" rx="2" fill="url(#glow)" />
       </g>
