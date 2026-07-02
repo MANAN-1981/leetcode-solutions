@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid meet">
+      <rect width="1200" height="420" rx="20" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+      <text x="40" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Repository Structure</text>
+      
+      <!-- Tree Structure -->
+      <g transform="translate(40, 90)">
+        <rect x="0" y="0" width="200" height="40" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+        <text x="20" y="25" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">📁 Topic</text>
+        
+        <path d="M 100 40 L 100 65 L 140 65" fill="none" stroke="#30363D" stroke-width="2" stroke-dasharray="4,4" />
+        
+        <rect x="140" y="45" width="200" height="40" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+        <text x="160" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#3FB950">📂 Easy</text>
+        
+        <path d="M 240 85 L 240 110 L 280 110" fill="none" stroke="#30363D" stroke-width="2" stroke-dasharray="4,4" />
+        
+        <rect x="280" y="90" width="250" height="40" rx="8" fill="#161B22" stroke="#58A6FF" stroke-width="1.5" />
+        <text x="300" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">📂 problem-slug</text>
+        
+        <!-- Files -->
+        <path d="M 320 130 L 320 160 L 350 160" fill="none" stroke="#30363D" stroke-width="2" />
+        <rect x="350" y="145" width="450" height="30" rx="6" fill="#0D1117" />
+        <text x="365" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E6EDF3">💻 solution.ext</text>
+        <text x="520" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">← your accepted code</text>
+        
+        <path d="M 320 160 L 320 200 L 350 200" fill="none" stroke="#30363D" stroke-width="2" />
+        <rect x="350" y="185" width="450" height="30" rx="6" fill="#0D1117" />
+        <text x="365" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E6EDF3">📝 README.md</text>
+        <text x="520" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">← approach summary</text>
+        
+        <path d="M 320 200 L 320 240 L 350 240" fill="none" stroke="#30363D" stroke-width="2" />
+        <rect x="350" y="225" width="450" height="30" rx="6" fill="#0D1117" />
+        <text x="365" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E6EDF3">📘 EXPLANATION.md</text>
+        <text x="520" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">← in-depth algorithmic explanation</text>
+        
+        <path d="M 320 240 L 320 280 L 350 280" fill="none" stroke="#30363D" stroke-width="2" />
+        <rect x="350" y="265" width="450" height="30" rx="6" fill="#0D1117" />
+        <text x="365" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E6EDF3">🧠 REVISION.md</text>
+        <text x="520" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">← flashcard-style revision notes</text>
+      </g>
+    </svg>
