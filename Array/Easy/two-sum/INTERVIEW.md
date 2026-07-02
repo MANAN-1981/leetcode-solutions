@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you optimize this algorithm for large arrays?
-2. How would you handle duplicate elements in this problem?
-3. What are the trade-offs between the brute force approach and the hash table approach?
+1. Can you optimize this solution for large arrays?
+2. How would you implement this solution using a hash table?
+3. What are some trade-offs between different approaches to this problem?
 
 ---
 
 ## Strengths
 
 - The solution is straightforward and easy to understand.
-- The solution handles edge cases correctly.
+- The solution checks for edge cases.
 - The solution is well-organized and easy to follow.
 
 ---
 
 ## Weaknesses
 
-- The solution has a high time complexity.
-- The solution does not handle large arrays efficiently.
+- The solution has a quadratic time complexity.
+- The solution does not use a hash table to store the elements and their indices.
 
 ---
 
 ## How To Improve
 
 - Use a hash table to store the elements and their indices.
-- Optimize the algorithm for large arrays.
-- Handle duplicate elements more efficiently.
+- Optimize the solution for large arrays.
+- Consider using a two-pointer technique.
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-No, because the solution has a high time complexity and does not handle large arrays efficiently. To pass a FAANG interview, a more efficient solution using a hash table or a two-pointer technique would be required.
+No, because the solution has a quadratic time complexity and does not use a hash table to store the elements and their indices. A more efficient solution would be required to pass a FAANG interview.
