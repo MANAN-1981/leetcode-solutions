@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#161B22" />
+          <stop offset="100%" stop-color="#0a0c10" />
+        </linearGradient>
+        <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#58A6FF" />
+          <stop offset="100%" stop-color="#BC8CFF" />
+        </linearGradient>
+      </defs>
+      <rect width="1200" height="320" rx="20" fill="url(#heroGradient)" stroke="#30363D" stroke-width="1.5" />
+      
+      <circle cx="200" cy="80" r="150" fill="#58A6FF" opacity="0.05" />
+      <circle cx="1000" cy="250" r="150" fill="#BC8CFF" opacity="0.05" />
+      
+      <g transform="translate(600, 160)">
+        <text x="0" y="-30" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="bold" fill="#E6EDF3" text-anchor="middle">LeetCode Solutions</text>
+        <text x="0" y="25" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#8B949E" text-anchor="middle">Solve • Learn • Master DSA</text>
+        
+        <rect x="-100" y="60" width="200" height="4" rx="2" fill="url(#glow)" />
+      </g>
+    </svg>
