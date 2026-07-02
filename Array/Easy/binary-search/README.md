@@ -1,20 +1,31 @@
 # Binary Search
 
-**Difficulty:** Easy
-**Topic:** Array
-**Language:** Java
-**LeetCode link:** https://leetcode.com/problems/binary-search/
+<div align="center">
 
-## Approach
+## 🟢 Easy • 📂 Array • 💻 Java
 
-The approach used in the code is a simple implementation of binary search, where we repeatedly divide the search interval in half until the target is found or the interval is empty. We use a while loop to continuously update the start and end pointers based on the comparison between the target and the middle element of the current interval. If the target is found, its index is returned; otherwise, -1 is returned to indicate that the target is not in the array.
+[Problem Link](https://leetcode.com/problems/binary-search/)
 
-## Complexity
+</div>
 
-- Time: O(log n)
-- Space: O(1)
+---
 
-## Code
+# 🧠 Approach
+
+This problem uses binary search to find a target element in a sorted array. The algorithm repeatedly divides the search interval in half until the target is found or the interval is empty. This approach is efficient and simple to implement.
+
+---
+
+# 📊 Complexity Analysis
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(log n)** |
+| Space | **O(1)** |
+
+---
+
+# 💻 Source Code
 
 ```java
 class Solution {
@@ -37,3 +48,11 @@ class Solution {
     }
 }
 ```
+
+---
+
+<div align="center">
+
+⭐ If you found this solution helpful, consider giving this repository a star.
+
+</div>
