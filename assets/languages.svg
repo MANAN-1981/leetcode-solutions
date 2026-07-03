@@ -4,16 +4,16 @@
       
         <text x="30" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">1.</text>
         <text x="60" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Java</text>
-        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#58A6FF">20</text>
+        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#58A6FF">21</text>
         <text x="300" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">95%</text>
         <rect x="360" y="93" width="180" height="12" rx="6" fill="#0D1117" />
-        <rect x="360" y="93" width="171.42857142857142" height="12" rx="6" fill="#58A6FF" />
+        <rect x="360" y="93" width="171.8181818181818" height="12" rx="6" fill="#58A6FF" />
       
         <text x="30" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">2.</text>
         <text x="60" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">C++</text>
         <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#58A6FF">1</text>
         <text x="300" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">5%</text>
         <rect x="360" y="133" width="180" height="12" rx="6" fill="#0D1117" />
-        <rect x="360" y="133" width="8.571428571428571" height="12" rx="6" fill="#58A6FF" />
+        <rect x="360" y="133" width="8.181818181818182" height="12" rx="6" fill="#58A6FF" />
       
     </svg>
