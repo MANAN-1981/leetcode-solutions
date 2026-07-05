@@ -8,17 +8,17 @@
           <text x="500" y="103" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
           <rect x="30" y="125" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Subtract The Product And Sum O</text>
-          <text x="380" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">Math</text>
+          <text x="45" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Reverse String</text>
+          <text x="380" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">TwoPointers</text>
           <text x="500" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
           <rect x="30" y="170" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Palindrome Number</text>
+          <text x="45" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Subtract The Product And Sum O</text>
           <text x="380" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">Math</text>
           <text x="500" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
           <rect x="30" y="215" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Missing Number</text>
+          <text x="45" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Palindrome Number</text>
           <text x="380" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">Math</text>
           <text x="500" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
