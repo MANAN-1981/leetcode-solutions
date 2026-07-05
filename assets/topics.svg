@@ -3,23 +3,23 @@
       <text x="30" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Top Topics</text>
       
         <text x="30" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Array</text>
-        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">15</text>
+        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">16</text>
         <rect x="310" y="93" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="93" width="150" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="93" width="153.33333333333331" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Math</text>
         <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">4</text>
         <rect x="310" y="133" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="133" width="40" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="133" width="38.33333333333333" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">BinarySearch</text>
         <text x="250" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">2</text>
         <rect x="310" y="173" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="173" width="20" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="173" width="19.166666666666664" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">TwoPointers</text>
         <text x="250" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">2</text>
         <rect x="310" y="213" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="213" width="20" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="213" width="19.166666666666664" height="12" rx="6" fill="#BC8CFF" />
       
     </svg>
