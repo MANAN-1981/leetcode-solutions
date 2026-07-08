@@ -111,13 +111,13 @@
         
           <rect x="30" y="485" width="1140" height="40" rx="6" fill="#161B22" />
           <text x="50" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">10</text>
-          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Two Sum</text>
+          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Max Consecutive Ones Iii</text>
           <rect x="550" y="493" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Array</text>
           
-          <rect x="750" y="493" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
-          <text x="800" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          <rect x="750" y="493" width="100" height="24" rx="12" fill="#F7B500" opacity="0.1" />
+          <text x="800" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#F7B500" text-anchor="middle">Medium</text>
           
-          <text x="900" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">C++, Java</text>
+          <text x="900" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
         
     </svg>
