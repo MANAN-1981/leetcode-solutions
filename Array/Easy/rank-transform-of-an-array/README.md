@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-The approach used in the code involves first storing unique elements from the input array in a set, then sorting these unique elements. The rank of each element in the input array is determined by its position in the sorted list of unique elements, with the first unique element having a rank of 1. This is achieved using a binary search to find the position of each element in the sorted list.
+The approach used in the code involves first adding all unique elements from the input array to a set, then sorting these unique elements in ascending order. It then uses binary search to find the rank of each element in the sorted list, adding 1 to the result to get the final rank. This approach ensures that equal elements have the same rank, and the ranks are consecutive integers starting from 1.
 
 ---
 
