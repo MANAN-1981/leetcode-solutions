@@ -12,7 +12,7 @@
 
 # 🧠 Approach
 
-This solution uses a two-pointer approach to reverse the input string in-place. It initializes two pointers at the start and end of the string and swaps the characters at these positions, moving the pointers towards each other until they meet. This approach ensures that the string is reversed efficiently without using any extra space.
+This solution uses a two-pointer approach to reverse the input string in-place. It initializes two pointers, one at the start and one at the end of the string, and then swaps the characters at these positions while moving the pointers towards each other. This process continues until the pointers meet in the middle, resulting in the reversed string.
 
 ---
 
