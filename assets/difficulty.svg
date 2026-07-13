@@ -4,16 +4,16 @@
       
       <g transform="translate(30, 100)">
         <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#3FB950">Easy</text>
-        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">34</text>
+        <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">35</text>
         <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
-        <rect x="150" y="3" width="261.53846153846155" height="14" rx="7" fill="#3FB950" />
+        <rect x="150" y="3" width="262.5" height="14" rx="7" fill="#3FB950" />
       </g>
 
       <g transform="translate(30, 160)">
         <text x="0" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#F7B500">Medium</text>
         <text x="100" y="15" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">5</text>
         <rect x="150" y="3" width="300" height="14" rx="7" fill="#0D1117" />
-        <rect x="150" y="3" width="38.46153846153846" height="14" rx="7" fill="#F7B500" />
+        <rect x="150" y="3" width="37.5" height="14" rx="7" fill="#F7B500" />
       </g>
 
       <g transform="translate(30, 220)">
