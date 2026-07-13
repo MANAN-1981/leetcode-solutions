@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time complexity of the algorithm?
-2. How does the algorithm handle the case where the string has an odd length?
-3. What are the advantages of using the two-pointer technique?
+1. Can you explain the trade-offs between this solution and alternative approaches?
+2. How would you handle a string with a large number of characters?
+3. What are the implications of reversing the string in-place?
 
 ---
 
 ## Strengths
 
-- The solution is efficient and easy to implement.
-- The algorithm has a minimal number of operations required to reverse the string.
-- The solution is well-structured and easy to understand.
+- The solution is efficient and simple
+- The code is well-structured and easy to understand
+- The algorithm handles edge cases correctly
 
 ---
 
 ## Weaknesses
 
-- The solution does not handle non-ASCII characters.
-- The solution does not include error checking for invalid input.
+- The solution may not be suitable for very large strings due to the in-place reversal
+- The algorithm does not provide any additional functionality beyond reversing the string
 
 ---
 
 ## How To Improve
 
-- Add error checking for invalid input.
-- Consider using a more robust algorithm that can handle non-ASCII characters.
-- Add comments to explain the logic behind the algorithm.
+- Consider adding error handling for invalid input
+- Explore alternative approaches to improve performance for very large strings
+- Add comments to explain the algorithm and the code
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is efficient, well-structured, and easy to understand, making it suitable for a FAANG interview. However, the solution could be improved by adding error checking and handling non-ASCII characters.
+Yes, the solution is efficient, well-structured, and easy to understand, making it suitable for a FAANG interview. The algorithm is also well-explained and handles edge cases correctly.
