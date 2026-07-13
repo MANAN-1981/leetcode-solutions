@@ -12,35 +12,35 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the trade-offs between using a HashSet and a TreeSet?
-2. How would you optimize the solution for large input arrays?
-3. What are the implications of using binary search versus a linear search?
+1. Can you explain the time complexity of the algorithm?
+2. How would you handle an array with a large number of duplicate elements?
+3. What are some potential optimizations to the algorithm?
 
 ---
 
 ## Strengths
 
-- The solution is efficient and scalable.
-- The code is well-organized and easy to follow.
-- The solution handles edge cases correctly.
+- The algorithm is efficient and easy to understand.
+- The use of a HashSet to remove duplicates is a good optimization.
+- The algorithm handles edge cases well.
 
 ---
 
 ## Weaknesses
 
-- The solution may not be suitable for very large input arrays due to the sorting step.
-- The code could be improved with additional comments and documentation.
+- The algorithm may not be suitable for very large arrays due to the sorting step.
+- The algorithm does not handle null or invalid input.
 
 ---
 
 ## How To Improve
 
-- Consider using a more efficient sorting algorithm for large input arrays.
-- Add additional comments and documentation to improve code readability.
-- Consider using a TreeMap instead of a HashSet for improved performance.
+- Consider adding error checking for null or invalid input.
+- Consider using a more efficient sorting algorithm for large arrays.
+- Consider using a different data structure, such as a TreeMap, to store the unique elements.
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, the solution is well-organized, efficient, and handles edge cases correctly. However, the interviewer may ask follow-up questions to test the candidate's ability to optimize the solution for large input arrays or to handle additional edge cases.
+Yes, the solution is well-structured, efficient, and easy to understand, making it suitable for a FAANG interview.
