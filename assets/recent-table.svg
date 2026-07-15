@@ -111,7 +111,7 @@
         
           <rect x="30" y="485" width="1140" height="40" rx="6" fill="#161B22" />
           <text x="50" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">10</text>
-          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Convert Integer To The Sum Of Two No Zero Integers</text>
+          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Gcd Of Odd And Even Sums</text>
           <rect x="550" y="493" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
           
