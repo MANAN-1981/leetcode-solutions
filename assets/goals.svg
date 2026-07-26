@@ -8,23 +8,23 @@
         <rect x="340" y="93" width="200" height="12" rx="6" fill="#3FB950" />
       
         <text x="30" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">Intermediate (150)</text>
-        <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">57 / 150</text>
+        <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">58 / 150</text>
         <rect x="340" y="133" width="200" height="12" rx="6" fill="#0D1117" />
-        <rect x="340" y="133" width="76" height="12" rx="6" fill="#58A6FF" />
+        <rect x="340" y="133" width="77.33333333333333" height="12" rx="6" fill="#58A6FF" />
       
         <text x="30" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">Advanced (300)</text>
-        <text x="250" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">57 / 300</text>
+        <text x="250" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">58 / 300</text>
         <rect x="340" y="173" width="200" height="12" rx="6" fill="#0D1117" />
-        <rect x="340" y="173" width="38" height="12" rx="6" fill="#58A6FF" />
+        <rect x="340" y="173" width="38.666666666666664" height="12" rx="6" fill="#58A6FF" />
       
         <text x="30" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">Expert (500)</text>
-        <text x="250" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">57 / 500</text>
+        <text x="250" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">58 / 500</text>
         <rect x="340" y="213" width="200" height="12" rx="6" fill="#0D1117" />
-        <rect x="340" y="213" width="22.8" height="12" rx="6" fill="#58A6FF" />
+        <rect x="340" y="213" width="23.200000000000003" height="12" rx="6" fill="#58A6FF" />
       
         <text x="30" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#8B949E">Master (1000)</text>
-        <text x="250" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">57 / 1000</text>
+        <text x="250" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#58A6FF">58 / 1000</text>
         <rect x="340" y="253" width="200" height="12" rx="6" fill="#0D1117" />
-        <rect x="340" y="253" width="11.4" height="12" rx="6" fill="#58A6FF" />
+        <rect x="340" y="253" width="11.600000000000001" height="12" rx="6" fill="#58A6FF" />
       
     </svg>
