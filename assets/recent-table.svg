@@ -56,18 +56,18 @@
         
           <rect x="30" y="260" width="1140" height="40" rx="6" fill="#0D1117" />
           <text x="50" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">5</text>
-          <text x="100" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Maximum Number Of Vowels In A Substring Of Given Length</text>
+          <text x="100" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Robot Return To Origin</text>
           <rect x="550" y="268" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
-          <text x="620" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">SlidingWindow</text>
+          <text x="620" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">String</text>
           
-          <rect x="750" y="268" width="100" height="24" rx="12" fill="#F7B500" opacity="0.1" />
-          <text x="800" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#F7B500" text-anchor="middle">Medium</text>
+          <rect x="750" y="268" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
+          <text x="800" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
           
           <text x="900" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
         
           <rect x="30" y="305" width="1140" height="40" rx="6" fill="#161B22" />
           <text x="50" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">6</text>
-          <text x="100" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Longest Substring Without Repeating Characters</text>
+          <text x="100" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Maximum Number Of Vowels In A Substring Of Given Length</text>
           <rect x="550" y="313" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">SlidingWindow</text>
           
@@ -78,9 +78,9 @@
         
           <rect x="30" y="350" width="1140" height="40" rx="6" fill="#0D1117" />
           <text x="50" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">7</text>
-          <text x="100" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Sum Of Square Numbers</text>
+          <text x="100" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Longest Substring Without Repeating Characters</text>
           <rect x="550" y="358" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
-          <text x="620" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
+          <text x="620" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">SlidingWindow</text>
           
           <rect x="750" y="358" width="100" height="24" rx="12" fill="#F7B500" opacity="0.1" />
           <text x="800" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#F7B500" text-anchor="middle">Medium</text>
@@ -89,18 +89,18 @@
         
           <rect x="30" y="395" width="1140" height="40" rx="6" fill="#161B22" />
           <text x="50" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">8</text>
-          <text x="100" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Valid Perfect Square</text>
+          <text x="100" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Sum Of Square Numbers</text>
           <rect x="550" y="403" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
           
-          <rect x="750" y="403" width="100" height="24" rx="12" fill="#3FB950" opacity="0.1" />
-          <text x="800" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#3FB950" text-anchor="middle">Easy</text>
+          <rect x="750" y="403" width="100" height="24" rx="12" fill="#F7B500" opacity="0.1" />
+          <text x="800" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#F7B500" text-anchor="middle">Medium</text>
           
           <text x="900" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#58A6FF">Java</text>
         
           <rect x="30" y="440" width="1140" height="40" rx="6" fill="#0D1117" />
           <text x="50" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">9</text>
-          <text x="100" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Subtract The Product And Sum Of Digits Of An Integer</text>
+          <text x="100" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Valid Perfect Square</text>
           <rect x="550" y="448" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
           
@@ -111,7 +111,7 @@
         
           <rect x="30" y="485" width="1140" height="40" rx="6" fill="#161B22" />
           <text x="50" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">10</text>
-          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Palindrome Number</text>
+          <text x="100" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Subtract The Product And Sum Of Digits Of An Integer</text>
           <rect x="550" y="493" width="140" height="24" rx="12" fill="#30363D" opacity="0.3" />
           <text x="620" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">Math</text>
           
