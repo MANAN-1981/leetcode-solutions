@@ -1,0 +1,27 @@
+class Solution {
+    public int countPairs(List<Integer> nums, int target) {
+
+        int n = nums.size();
+
+        Collections.sort(nums);
+
+        int count = 0;
+
+        int l = 0;
+        int r = n - 1;
+
+        while (l < r) {
+
+            if (nums.get(l) + nums.get(r) < target) {
+
+                count += r - l;
+                l++;
+
+            } else {
+                r--;
+            }
+        }
+
+        return count;
+    }
+}
