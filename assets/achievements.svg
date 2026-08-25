@@ -15,9 +15,9 @@
         </g>
       
         <g transform="translate(410, 90)">
-          <circle cx="40" cy="20" r="30" fill="#0D1117" stroke="#30363D" stroke-width="2" />
+          <circle cx="40" cy="20" r="30" fill="#0D1117" stroke="#FF4D6D" stroke-width="2" />
           <text x="40" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">🔥</text>
-          <text x="40" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">100 Solved</text>
+          <text x="40" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E6EDF3" text-anchor="middle">100 Solved</text>
         </g>
       
         <g transform="translate(50, 190)">
