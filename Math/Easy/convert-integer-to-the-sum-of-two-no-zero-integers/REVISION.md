@@ -6,11 +6,13 @@ Brute Force
 
 ## Key Idea
 
-The key insight is to exhaustively check every possible pair of numbers to find a valid solution. This approach guarantees that a solution will be found if one exists.
+Scan from 1 upward and stop at the first pair where neither number contains the digit zero.
 
 ## Important Observations
 
-Critical observations include: the numbers must be non-zero, the numbers must add up to the given number, the algorithm must handle edge cases correctly.
+- Any positive integer can be expressed as a sum of two positive integers.
+- At least one valid pair exists for every n ≥ 2.
+- Checking for a zero digit is O(log k) where k is the number being checked, which is negligible compared to the linear scan.
 
 ## Formula
 
@@ -18,25 +20,27 @@ N/A
 
 ## Interview Tips
 
-To explain this problem in an interview, focus on the key insight of exhaustively checking every possible pair of numbers. Emphasize the importance of handling edge cases correctly and using an efficient algorithm.
+1. Mention the guarantee of existence before coding.
+2. Explain the zero‑digit check using string conversion or modular arithmetic.
+3. Emphasize the O(n) time and O(1) space simplicity.
 
 ---
 
 ## Revision Questions
 
-**Q1.** What is the time complexity of this algorithm?
+**Q1.** Why does a solution always exist for n ≥ 2?
 
-**Q2.** How does the algorithm handle edge cases?
+**Q2.** Can you implement the zero‑digit check without converting to a string? How would that affect complexity?
 
-**Q3.** What are some alternative approaches to solving this problem?
+**Q3.** How would you modify the algorithm if the numbers were required to be non‑negative instead of positive?
 
-**Q4.** How can the algorithm be optimized for large inputs?
+**Q4.** What is the worst‑case number of iterations before finding a pair?
 
-**Q5.** What are some common mistakes to avoid when solving this problem?
+**Q5.** If n were up to 10^9, would the linear scan still be acceptable? Why or why not?
 
-**Q6.** How can the algorithm be modified to handle negative numbers?
+**Q6.** How could you use a pre‑computed list of no‑zero numbers to improve average performance?
 
-**Q7.** What is the space complexity of this algorithm?
+**Q7.** Is there any benefit to iterating from the middle (n/2) outward instead of from 1?
 
-**Q8.** How can the algorithm be parallelized to improve performance?
+**Q8.** How would you adapt the solution for a language without built‑in string conversion?
 
