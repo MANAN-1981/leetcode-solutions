@@ -12,35 +12,36 @@
 
 ## Common Follow-up Questions
 
-1. Can you explain the time complexity of this algorithm?
-2. How would you optimize this algorithm for large inputs?
-3. What are some alternative approaches to solving this problem?
+1. What would change if the constraint was “no digit 5” instead of “no zero”?
+2. Can you solve the problem using only arithmetic operations (no strings)?
+3. How would you handle the case where n is extremely large (e.g., 10^12) in terms of time limits?
+4. If the interviewer asks for all possible pairs, how would you adjust the algorithm?
 
 ---
 
 ## Strengths
 
-- The algorithm is simple and easy to understand
-- The algorithm guarantees that a solution will be found if one exists
-- The code is well-organized and readable
+- Simple and easy to understand.
+- O(1) extra space.
+- Works for the full input range.
 
 ---
 
 ## Weaknesses
 
-- The algorithm has high time complexity
-- The algorithm does not handle negative numbers
+- Uses string conversion which may be slower than pure arithmetic.
+- Does not exploit the guarantee of existence to early‑exit with a constant‑time construction.
 
 ---
 
 ## How To Improve
 
-- Optimize the algorithm for large inputs by using a more efficient data structure
-- Modify the algorithm to handle negative numbers
-- Use a more efficient algorithm with lower time complexity
+- Replace the string check with a digit‑extraction loop (while x > 0 { if x % 10 == 0 return false; x /= 10; }).
+- Return the pair [1, n‑1] when n‑1 has no zero, avoiding the loop in many cases.
+- Add input validation for n < 2.
 
 ---
 
 ## Would This Pass a FAANG Interview?
 
-Yes, this solution would pass a FAANG interview because it is well-organized, readable, and guarantees that a solution will be found if one exists. However, the interviewer may ask follow-up questions to test the candidate's ability to optimize the algorithm and handle edge cases.
+Yes. The solution is correct, runs in linear time, uses constant extra space, and is easy to explain. Interviewers at FAANG companies expect a clean O(n) approach for this easy‑level problem, and the code can be quickly refined to avoid string conversion if needed.
