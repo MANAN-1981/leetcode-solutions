@@ -2,37 +2,44 @@
 
 ## Algorithm Overview
 
-The algorithm starts by populating an array with numbers from 1 to n using a recursive function. Then, it iterates through the array to find a pair of numbers that add up to the given number and do not contain any zeros. The algorithm checks every possible pair of numbers in the array to find a valid solution.
+The algorithm scans all possible values for the first addend. For each value it verifies that neither the value nor n minus the value contains the digit zero. The first valid pair is returned.
 
 ---
 
 ## Step-by-Step Explanation
 
-1. Populate an array with numbers from 1 to n using a recursive function.
-2. Iterate through the array to find a pair of numbers that add up to the given number.
-3. Check if each number in the pair contains any zeros.
-4. If a valid pair is found, return the pair.
+1. Loop a from 1 to n‑1.
+2. Compute b = n – a.
+3. Convert a and b to strings.
+4. If neither string contains '0', return [a, b].
+5. If the loop finishes without finding a pair (theoretically impossible for n ≥ 2), return an empty array.
 
 ---
 
 ## Why This Works
 
-This algorithm works because it exhaustively checks every possible pair of numbers in the array. By checking every pair, it guarantees that it will find a valid solution if one exists. The use of a recursive function to populate the array simplifies the code and makes it more efficient.
+If a and b are both positive and contain no zero digit, they satisfy the problem constraints. Since we examine every possible a, we are guaranteed to encounter a valid pair because at least one exists for any n ≥ 2 (e.g., 1 and n‑1 when n‑1 has no zero).
 
 ---
 
 ## Edge Cases
 
-Important edge cases to consider include: when n is less than 2, when n is an odd number, when n is an even number.
+- n = 2 (the smallest valid input, returns [1,1]).
+- Numbers where n‑1 contains a zero but another pair exists (e.g., n = 101, answer [11,90] is invalid because 90 has zero, but [19,82] works). 
+- Large n up to 10^5, still linear scan is fast.
+- Ensure both a and b are > 0.
 
 ---
 
 ## Alternative Approaches
 
-One alternative approach is to use a hash table to store the numbers as we generate them, and then check if the difference between the given number and each generated number is also in the hash table. Another approach is to use a mathematical formula to directly calculate the two numbers.
+1. Pre‑compute all numbers without zero up to n and use a hash set to test complements in O(1) lookup.
+2. Use recursion/backtracking to build numbers digit by digit, pruning any branch that would introduce a zero (overkill for this easy problem).
 
 ---
 
 ## Common Mistakes
 
-Common mistakes include: not checking for zeros in the numbers, not handling edge cases correctly, using an inefficient algorithm with high time complexity.
+1. Forgetting to check both numbers for zeros, only checking one side.
+2. Starting the loop at 0, which would produce a zero addend.
+3. Using an array of size n and filling it unnecessarily, leading to O(n) extra space.
