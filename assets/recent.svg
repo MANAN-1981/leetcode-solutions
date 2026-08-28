@@ -3,23 +3,23 @@
       <text x="30" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Recent Solves</text>
       
           <rect x="30" y="80" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="103" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Container With Most Water</text>
+          <text x="45" y="103" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Maximum Matching Of Players Wi</text>
           <text x="380" y="103" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">TwoPointers</text>
           <text x="500" y="103" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F7B500">Medium</text>
         
           <rect x="30" y="125" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Valid Palindrome</text>
+          <text x="45" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Container With Most Water</text>
           <text x="380" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">TwoPointers</text>
-          <text x="500" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
+          <text x="500" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F7B500">Medium</text>
         
           <rect x="30" y="170" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Reverse String</text>
+          <text x="45" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Valid Palindrome</text>
           <text x="380" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">TwoPointers</text>
           <text x="500" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
           <rect x="30" y="215" width="520" height="36" rx="6" fill="#0D1117" />
-          <text x="45" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Maximum Number Of Vowels In A </text>
-          <text x="380" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">String</text>
-          <text x="500" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#F7B500">Medium</text>
+          <text x="45" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#E6EDF3">Reverse String</text>
+          <text x="380" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#8B949E">TwoPointers</text>
+          <text x="500" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#3FB950">Easy</text>
         
     </svg>
