@@ -3,48 +3,48 @@
       <text x="30" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E6EDF3">Top Topics</text>
       
         <text x="30" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Array</text>
-        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">73</text>
+        <text x="250" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">75</text>
         <rect x="310" y="93" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="93" width="132.2047244094488" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="93" width="133.72093023255815" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Math</text>
         <text x="250" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">18</text>
         <rect x="310" y="133" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="133" width="32.59842519685039" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="133" width="32.093023255813954" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">String</text>
         <text x="250" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">18</text>
         <rect x="310" y="173" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="173" width="32.59842519685039" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="173" width="32.093023255813954" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">SlidingWindow</text>
         <text x="250" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">4</text>
         <rect x="310" y="213" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="213" width="7.244094488188976" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="213" width="7.131782945736434" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">TwoPointers</text>
         <text x="250" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">4</text>
         <rect x="310" y="253" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="253" width="7.244094488188976" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="253" width="7.131782945736434" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">BinarySearch</text>
         <text x="250" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">3</text>
         <rect x="310" y="293" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="293" width="5.433070866141732" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="293" width="5.348837209302325" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="345" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Greedy</text>
         <text x="250" y="345" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">3</text>
         <rect x="310" y="333" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="333" width="5.433070866141732" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="333" width="5.348837209302325" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">HashTable</text>
         <text x="250" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">3</text>
         <rect x="310" y="373" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="373" width="5.433070866141732" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="373" width="5.348837209302325" height="12" rx="6" fill="#BC8CFF" />
       
         <text x="30" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#BC8CFF">Sorting</text>
         <text x="250" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E6EDF3">1</text>
         <rect x="310" y="413" width="230" height="12" rx="6" fill="#0D1117" />
-        <rect x="310" y="413" width="1.811023622047244" height="12" rx="6" fill="#BC8CFF" />
+        <rect x="310" y="413" width="1.7829457364341086" height="12" rx="6" fill="#BC8CFF" />
       
     </svg>
